@@ -1,0 +1,1654 @@
+{
+    "blocks": {
+        "0": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 229.52069091796875,
+                    "threshold_rank": 332,
+                    "variance_99_rank": 211,
+                    "condition_number": 54617.66015625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 94.83782958984375,
+                    "threshold_rank": 174,
+                    "variance_99_rank": 89,
+                    "condition_number": 433.6225280761719
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 177.33261108398438,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 180,
+                    "condition_number": 6.973033428192139
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 367.0835876464844,
+                    "threshold_rank": 516,
+                    "variance_99_rank": 366,
+                    "condition_number": 7364.673828125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 535.3306274414062,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 539,
+                    "condition_number": 37.26973342895508
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 537.7314453125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 539,
+                    "condition_number": 18.252058029174805
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 526.7133178710938,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 24.34933853149414
+                }
+            ]
+        },
+        "1": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 416.0552062988281,
+                    "threshold_rank": 550,
+                    "variance_99_rank": 403,
+                    "condition_number": 7665.34130859375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 173.04019165039062,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 173,
+                    "condition_number": 24.233501434326172
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.0560760498047,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 180,
+                    "condition_number": 5.573916435241699
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 394.86285400390625,
+                    "threshold_rank": 541,
+                    "variance_99_rank": 376,
+                    "condition_number": 14022.408203125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 529.007568359375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 538,
+                    "condition_number": 22.164703369140625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 536.6714477539062,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 541,
+                    "condition_number": 16.47793960571289
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 540.130615234375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 543,
+                    "condition_number": 13.94175910949707
+                }
+            ]
+        },
+        "2": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 408.8676452636719,
+                    "threshold_rank": 544,
+                    "variance_99_rank": 392,
+                    "condition_number": 31852.203125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 172.9342041015625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 172,
+                    "condition_number": 29.6862850189209
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 180.0661163330078,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 180,
+                    "condition_number": 7.718358039855957
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 394.4844055175781,
+                    "threshold_rank": 549,
+                    "variance_99_rank": 381,
+                    "condition_number": 10674.23828125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 534.2078857421875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 540,
+                    "condition_number": 22.718660354614258
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 539.385009765625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 542,
+                    "condition_number": 16.544328689575195
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 537.191162109375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 543,
+                    "condition_number": 11.29075813293457
+                }
+            ]
+        },
+        "3": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 398.2407531738281,
+                    "threshold_rank": 545,
+                    "variance_99_rank": 377,
+                    "condition_number": 65568.1640625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 169.80337524414062,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 167,
+                    "condition_number": 25.156204223632812
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.2535400390625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 5.19308614730835
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 415.31488037109375,
+                    "threshold_rank": 555,
+                    "variance_99_rank": 402,
+                    "condition_number": 13211.3544921875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 532.3259887695312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 536,
+                    "condition_number": 20.447725296020508
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 539.4595947265625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 539,
+                    "condition_number": 14.230499267578125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 532.2855834960938,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 537,
+                    "condition_number": 20.595773696899414
+                }
+            ]
+        },
+        "4": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 420.71875,
+                    "threshold_rank": 551,
+                    "variance_99_rank": 402,
+                    "condition_number": 5582.4541015625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 168.91940307617188,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 168,
+                    "condition_number": 26.751306533813477
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 184.0963592529297,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 184,
+                    "condition_number": 4.343424320220947
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 432.27801513671875,
+                    "threshold_rank": 561,
+                    "variance_99_rank": 414,
+                    "condition_number": 67559.921875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.8119506835938,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 533,
+                    "condition_number": 26.017322540283203
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 540.1532592773438,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 537,
+                    "condition_number": 13.394695281982422
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 525.3936157226562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 24.944305419921875
+                }
+            ]
+        },
+        "5": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 411.603515625,
+                    "threshold_rank": 549,
+                    "variance_99_rank": 394,
+                    "condition_number": 10676.751953125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 169.4007110595703,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 168,
+                    "condition_number": 27.039661407470703
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 180.58477783203125,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 181,
+                    "condition_number": 5.257922172546387
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 413.205810546875,
+                    "threshold_rank": 554,
+                    "variance_99_rank": 395,
+                    "condition_number": 3368.4541015625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.1403198242188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 532,
+                    "condition_number": 26.263553619384766
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 540.2921142578125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 538,
+                    "condition_number": 14.799001693725586
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.01806640625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 24.006502151489258
+                }
+            ]
+        },
+        "6": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 408.9356994628906,
+                    "threshold_rank": 550,
+                    "variance_99_rank": 395,
+                    "condition_number": 82896.734375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 168.60475158691406,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 170,
+                    "condition_number": 35.623374938964844
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.05209350585938,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 4.932293891906738
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 422.39862060546875,
+                    "threshold_rank": 559,
+                    "variance_99_rank": 409,
+                    "condition_number": 6126.6533203125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.0869140625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 26.026596069335938
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 537.5027465820312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 535,
+                    "condition_number": 15.123602867126465
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.3670043945312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 525,
+                    "condition_number": 23.21332550048828
+                }
+            ]
+        },
+        "7": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 395.99871826171875,
+                    "threshold_rank": 541,
+                    "variance_99_rank": 374,
+                    "condition_number": 17124.052734375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 166.32322692871094,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 165,
+                    "condition_number": 38.36448669433594
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 175.05047607421875,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 178,
+                    "condition_number": 7.978935718536377
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 405.3623046875,
+                    "threshold_rank": 553,
+                    "variance_99_rank": 394,
+                    "condition_number": 35131.12890625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.0556640625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 24.95711898803711
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 536.9368896484375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 534,
+                    "condition_number": 15.969242095947266
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 529.8671875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 528,
+                    "condition_number": 18.491090774536133
+                }
+            ]
+        },
+        "8": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 393.26568603515625,
+                    "threshold_rank": 540,
+                    "variance_99_rank": 371,
+                    "condition_number": 45472.1015625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 161.84512329101562,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 156,
+                    "condition_number": 50.94700622558594
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 180.5167694091797,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 180,
+                    "condition_number": 5.63894510269165
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 420.02178955078125,
+                    "threshold_rank": 556,
+                    "variance_99_rank": 405,
+                    "condition_number": 1500.2381591796875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.3709106445312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 533,
+                    "condition_number": 24.831838607788086
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 538.08203125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 536,
+                    "condition_number": 17.581525802612305
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.7760620117188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 533,
+                    "condition_number": 21.971723556518555
+                }
+            ]
+        },
+        "9": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 383.4955139160156,
+                    "threshold_rank": 542,
+                    "variance_99_rank": 367,
+                    "condition_number": 15434.9072265625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 166.2565460205078,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 162,
+                    "condition_number": 51.82267761230469
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 174.12216186523438,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 173,
+                    "condition_number": 8.655390739440918
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 421.4715270996094,
+                    "threshold_rank": 559,
+                    "variance_99_rank": 407,
+                    "condition_number": 23652.736328125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.53076171875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 534,
+                    "condition_number": 24.915813446044922
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 538.9044799804688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 538,
+                    "condition_number": 18.386058807373047
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 536.0931396484375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 539,
+                    "condition_number": 19.229976654052734
+                }
+            ]
+        },
+        "10": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 409.7179870605469,
+                    "threshold_rank": 550,
+                    "variance_99_rank": 398,
+                    "condition_number": 6593.31884765625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 172.84451293945312,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 172,
+                    "condition_number": 25.89767837524414
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 184.0082550048828,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 183,
+                    "condition_number": 3.9645559787750244
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 427.4508972167969,
+                    "threshold_rank": 563,
+                    "variance_99_rank": 410,
+                    "condition_number": 8881.7353515625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.3347778320312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 532,
+                    "condition_number": 24.85470962524414
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 537.914794921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 538,
+                    "condition_number": 17.134639739990234
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 536.0440673828125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 539,
+                    "condition_number": 15.306537628173828
+                }
+            ]
+        },
+        "11": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 410.1916198730469,
+                    "threshold_rank": 552,
+                    "variance_99_rank": 399,
+                    "condition_number": 13859.046875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 171.4241180419922,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 171,
+                    "condition_number": 36.43917465209961
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 182.4817657470703,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 4.2426252365112305
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 407.04412841796875,
+                    "threshold_rank": 555,
+                    "variance_99_rank": 388,
+                    "condition_number": 16552.11328125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 525.0587768554688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 532,
+                    "condition_number": 22.904272079467773
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 536.6484375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 537,
+                    "condition_number": 25.658784866333008
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 533.2764282226562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 536,
+                    "condition_number": 18.722801208496094
+                }
+            ]
+        },
+        "12": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 381.31976318359375,
+                    "threshold_rank": 544,
+                    "variance_99_rank": 370,
+                    "condition_number": 20175.67578125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 165.4409637451172,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 164,
+                    "condition_number": 31.186864852905273
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 180.77940368652344,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 181,
+                    "condition_number": 6.264459133148193
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 413.8521728515625,
+                    "threshold_rank": 557,
+                    "variance_99_rank": 396,
+                    "condition_number": 6439.57177734375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 523.2759399414062,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 531,
+                    "condition_number": 23.69852066040039
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 535.3408813476562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 538,
+                    "condition_number": 20.211328506469727
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 532.89892578125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 537,
+                    "condition_number": 16.568647384643555
+                }
+            ]
+        },
+        "13": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 388.53094482421875,
+                    "threshold_rank": 544,
+                    "variance_99_rank": 381,
+                    "condition_number": 13151.623046875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 163.80288696289062,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 164,
+                    "condition_number": 38.106266021728516
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 182.96673583984375,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 4.2092366218566895
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 417.3787841796875,
+                    "threshold_rank": 554,
+                    "variance_99_rank": 398,
+                    "condition_number": 35393.6171875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 512.2815551757812,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 524,
+                    "condition_number": 25.306652069091797
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.3055419921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 533,
+                    "condition_number": 19.28531837463379
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 519.7824096679688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 525,
+                    "condition_number": 22.205211639404297
+                }
+            ]
+        },
+        "14": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 364.4845886230469,
+                    "threshold_rank": 538,
+                    "variance_99_rank": 352,
+                    "condition_number": 5964.021484375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 154.0035858154297,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 155,
+                    "condition_number": 28.738550186157227
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 178.22543334960938,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 179,
+                    "condition_number": 5.403141498565674
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 411.5081481933594,
+                    "threshold_rank": 555,
+                    "variance_99_rank": 395,
+                    "condition_number": 6691.76708984375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 512.9562377929688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 524,
+                    "condition_number": 24.737220764160156
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.14794921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 534,
+                    "condition_number": 19.769041061401367
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 520.4622192382812,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 526,
+                    "condition_number": 24.380393981933594
+                }
+            ]
+        },
+        "15": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 355.2288513183594,
+                    "threshold_rank": 530,
+                    "variance_99_rank": 344,
+                    "condition_number": 93011.140625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 152.29745483398438,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 150,
+                    "condition_number": 60.127281188964844
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.04380798339844,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 181,
+                    "condition_number": 8.331870079040527
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 392.2846374511719,
+                    "threshold_rank": 548,
+                    "variance_99_rank": 371,
+                    "condition_number": 6437.9833984375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 513.9816284179688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 525,
+                    "condition_number": 24.533079147338867
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.9119873046875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 534,
+                    "condition_number": 19.867351531982422
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 519.8518676757812,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 19.01712989807129
+                }
+            ]
+        },
+        "16": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 389.6751403808594,
+                    "threshold_rank": 543,
+                    "variance_99_rank": 379,
+                    "condition_number": 140478.578125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 163.1275634765625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 165,
+                    "condition_number": 43.025390625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 178.7255859375,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 178,
+                    "condition_number": 6.0068559646606445
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 409.86199951171875,
+                    "threshold_rank": 553,
+                    "variance_99_rank": 390,
+                    "condition_number": 52173.3359375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 513.3065795898438,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 526,
+                    "condition_number": 23.789560317993164
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.92919921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 535,
+                    "condition_number": 19.260725021362305
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 509.0034484863281,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 512,
+                    "condition_number": 35.64060974121094
+                }
+            ]
+        },
+        "17": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 337.8331604003906,
+                    "threshold_rank": 521,
+                    "variance_99_rank": 327,
+                    "condition_number": 34149.29296875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 149.37376403808594,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 151,
+                    "condition_number": 42.703575134277344
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 172.142822265625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 173,
+                    "condition_number": 8.111967086791992
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 388.946533203125,
+                    "threshold_rank": 551,
+                    "variance_99_rank": 373,
+                    "condition_number": 7022.802734375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 518.2670288085938,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 22.72796058654785
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.4793701171875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 536,
+                    "condition_number": 21.342121124267578
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 506.2872314453125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 507,
+                    "condition_number": 48.670570373535156
+                }
+            ]
+        },
+        "18": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 323.4828796386719,
+                    "threshold_rank": 516,
+                    "variance_99_rank": 307,
+                    "condition_number": 7319.88525390625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 146.46148681640625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 141,
+                    "condition_number": 34.199806213378906
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.97344970703125,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 4.402796745300293
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 373.8238525390625,
+                    "threshold_rank": 542,
+                    "variance_99_rank": 351,
+                    "condition_number": 8897.95703125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 508.8813781738281,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 515,
+                    "condition_number": 23.852783203125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 529.5405883789062,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 535,
+                    "condition_number": 22.381145477294922
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 519.1490478515625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 526,
+                    "condition_number": 13.095500946044922
+                }
+            ]
+        },
+        "19": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 372.0814208984375,
+                    "threshold_rank": 535,
+                    "variance_99_rank": 359,
+                    "condition_number": 55564.90234375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 164.6072540283203,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 164,
+                    "condition_number": 45.834877014160156
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 178.0308380126953,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 180,
+                    "condition_number": 6.099409103393555
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 375.18212890625,
+                    "threshold_rank": 548,
+                    "variance_99_rank": 357,
+                    "condition_number": 4450.5869140625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 517.2493896484375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 528,
+                    "condition_number": 24.18010139465332
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 533.0254516601562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 537,
+                    "condition_number": 21.936506271362305
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 517.6636962890625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 522,
+                    "condition_number": 14.492305755615234
+                }
+            ]
+        },
+        "20": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 333.87994384765625,
+                    "threshold_rank": 515,
+                    "variance_99_rank": 322,
+                    "condition_number": 22415.046875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 146.1708984375,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 150,
+                    "condition_number": 23.051353454589844
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 179.27645874023438,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 179,
+                    "condition_number": 6.15064001083374
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 389.4875183105469,
+                    "threshold_rank": 551,
+                    "variance_99_rank": 371,
+                    "condition_number": 22160.392578125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 512.9471435546875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 520,
+                    "condition_number": 24.27048683166504
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.2031860351562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 534,
+                    "condition_number": 25.425338745117188
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.8045654296875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 535,
+                    "condition_number": 9.704071044921875
+                }
+            ]
+        },
+        "21": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 353.40484619140625,
+                    "threshold_rank": 537,
+                    "variance_99_rank": 344,
+                    "condition_number": 318486.34375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 153.37860107421875,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 159,
+                    "condition_number": 21.92822265625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 176.7724609375,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 175,
+                    "condition_number": 6.917028427124023
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 394.6185302734375,
+                    "threshold_rank": 554,
+                    "variance_99_rank": 376,
+                    "condition_number": 5167.775390625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 513.9860229492188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 517,
+                    "condition_number": 38.00153350830078
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 525.4121704101562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 524,
+                    "condition_number": 24.816694259643555
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 522.7587280273438,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 525,
+                    "condition_number": 28.436735153198242
+                }
+            ]
+        },
+        "22": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 343.93072509765625,
+                    "threshold_rank": 526,
+                    "variance_99_rank": 334,
+                    "condition_number": 9128.6064453125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 154.16102600097656,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 160,
+                    "condition_number": 51.51896667480469
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 176.4674072265625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 177,
+                    "condition_number": 6.022545337677002
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 382.1598205566406,
+                    "threshold_rank": 552,
+                    "variance_99_rank": 364,
+                    "condition_number": 21704.103515625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 517.4970703125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 522,
+                    "condition_number": 37.0822639465332
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.75439453125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 528,
+                    "condition_number": 21.493310928344727
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 517.1258544921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 518,
+                    "condition_number": 24.446434020996094
+                }
+            ]
+        },
+        "23": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 287.2923889160156,
+                    "threshold_rank": 486,
+                    "variance_99_rank": 273,
+                    "condition_number": 15590.7001953125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 131.59841918945312,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 136,
+                    "condition_number": 45.56431198120117
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 161.92579650878906,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 156,
+                    "condition_number": 13.629453659057617
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 359.20440673828125,
+                    "threshold_rank": 540,
+                    "variance_99_rank": 339,
+                    "condition_number": 11643.634765625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 507.9988708496094,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 511,
+                    "condition_number": 36.113868713378906
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 520.8082885742188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 521,
+                    "condition_number": 20.695648193359375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 526.1846313476562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 525,
+                    "condition_number": 13.603851318359375
+                }
+            ]
+        },
+        "24": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 329.66094970703125,
+                    "threshold_rank": 500,
+                    "variance_99_rank": 318,
+                    "condition_number": 409860.9375
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 140.8488311767578,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 147,
+                    "condition_number": 37.37917709350586
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 165.1336669921875,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 167,
+                    "condition_number": 9.18431282043457
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 420.97601318359375,
+                    "threshold_rank": 539,
+                    "variance_99_rank": 401,
+                    "condition_number": 7149.29296875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 512.5821533203125,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 514,
+                    "condition_number": 29.689931869506836
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 523.9895629882812,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 523,
+                    "condition_number": 18.774539947509766
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 531.05224609375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 14.094846725463867
+                }
+            ]
+        },
+        "25": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 398.87664794921875,
+                    "threshold_rank": 546,
+                    "variance_99_rank": 388,
+                    "condition_number": 3554.13623046875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 167.27496337890625,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 169,
+                    "condition_number": 41.30906677246094
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.5198516845703,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 4.932961463928223
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 428.8730773925781,
+                    "threshold_rank": 562,
+                    "variance_99_rank": 414,
+                    "condition_number": 3424.072021484375
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 517.1741943359375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 517,
+                    "condition_number": 21.31011390686035
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 524.6205444335938,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 522,
+                    "condition_number": 18.407947540283203
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 528.31787109375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 526,
+                    "condition_number": 11.16049575805664
+                }
+            ]
+        },
+        "26": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 356.5147705078125,
+                    "threshold_rank": 520,
+                    "variance_99_rank": 344,
+                    "condition_number": 32194.1015625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 159.90557861328125,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 165,
+                    "condition_number": 37.706546783447266
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 183.09222412109375,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 183,
+                    "condition_number": 4.014299392700195
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 426.442138671875,
+                    "threshold_rank": 560,
+                    "variance_99_rank": 407,
+                    "condition_number": 1851.308837890625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 520.6159057617188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 523,
+                    "condition_number": 18.209537506103516
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 526.9609985351562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 527,
+                    "condition_number": 16.347816467285156
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 529.5769653320312,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 531,
+                    "condition_number": 9.544679641723633
+                }
+            ]
+        },
+        "27": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 395.53692626953125,
+                    "threshold_rank": 539,
+                    "variance_99_rank": 387,
+                    "condition_number": 5921.38134765625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 164.83274841308594,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 167,
+                    "condition_number": 54.463558197021484
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 186.86282348632812,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 185,
+                    "condition_number": 7.8324294090271
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 423.18304443359375,
+                    "threshold_rank": 553,
+                    "variance_99_rank": 407,
+                    "condition_number": 73497.8671875
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 519.9364013671875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 526,
+                    "condition_number": 24.526996612548828
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 524.962890625,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 28.588966369628906
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 529.3997192382812,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 14.391809463500977
+                }
+            ]
+        },
+        "28": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 365.0284423828125,
+                    "threshold_rank": 525,
+                    "variance_99_rank": 355,
+                    "condition_number": 12906.1689453125
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 152.0244903564453,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 149,
+                    "condition_number": 60.94725799560547
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 181.23634338378906,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 182,
+                    "condition_number": 9.73331069946289
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 415.78033447265625,
+                    "threshold_rank": 550,
+                    "variance_99_rank": 399,
+                    "condition_number": 4810.19189453125
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 524.3999633789062,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 531,
+                    "condition_number": 23.89103126525879
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 524.6543579101562,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 531,
+                    "condition_number": 34.354156494140625
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 530.8253784179688,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 532,
+                    "condition_number": 8.295086860656738
+                }
+            ]
+        },
+        "29": {
+            "attn": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 384.289794921875,
+                    "threshold_rank": 532,
+                    "variance_99_rank": 373,
+                    "condition_number": 102864.7421875
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 166.44541931152344,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 169,
+                    "condition_number": 40.510826110839844
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 182.69027709960938,
+                    "threshold_rank": 192,
+                    "variance_99_rank": 183,
+                    "condition_number": 4.900876522064209
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 403.5165100097656,
+                    "threshold_rank": 551,
+                    "variance_99_rank": 388,
+                    "condition_number": 3383.87890625
+                }
+            ],
+            "mlp": [
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 518.5778198242188,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 523,
+                    "condition_number": 27.0550479888916
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 526.95849609375,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 529,
+                    "condition_number": 16.22199249267578
+                },
+                {
+                    "layer_name": "weight",
+                    "effective_rank": 523.39794921875,
+                    "threshold_rank": 576,
+                    "variance_99_rank": 530,
+                    "condition_number": 10.919573783874512
+                }
+            ]
+        }
+    }
+}
