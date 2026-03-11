@@ -1,0 +1,74 @@
+[
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 0,
+        "Model_Path": "google/gemma-3-1b-it",
+        "Perplexity": 8.2696,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9515,
+        "Shannon_Entropy": 0.7622,
+        "Semantic_Coherence": 0.4719,
+        "MAUVE_Score": 0.1567
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 1,
+        "Model_Path": "models/gemma_treatment_gen_1",
+        "Perplexity": 10.8573,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9286,
+        "Shannon_Entropy": 0.5757,
+        "Semantic_Coherence": 0.5256,
+        "MAUVE_Score": 0.0105
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 2,
+        "Model_Path": "models/gemma_treatment_gen_2",
+        "Perplexity": 13.4163,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9354,
+        "Shannon_Entropy": 0.4536,
+        "Semantic_Coherence": 0.5271,
+        "MAUVE_Score": 0.0105
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 3,
+        "Model_Path": "models/gemma_treatment_gen_3",
+        "Perplexity": 15.4488,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9521,
+        "Shannon_Entropy": 0.4016,
+        "Semantic_Coherence": 0.5819,
+        "MAUVE_Score": 0.0105
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 4,
+        "Model_Path": "models/gemma_treatment_gen_4",
+        "Perplexity": 16.108,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9157,
+        "Shannon_Entropy": 0.3911,
+        "Semantic_Coherence": 0.5603,
+        "MAUVE_Score": 0.0264
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 5,
+        "Model_Path": "models/gemma_treatment_gen_5",
+        "Perplexity": 17.0534,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",
+        "Uniqueness_Score": 0.9424,
+        "Shannon_Entropy": 0.3762,
+        "Semantic_Coherence": 0.542,
+        "MAUVE_Score": 0.0474
+    }
+]

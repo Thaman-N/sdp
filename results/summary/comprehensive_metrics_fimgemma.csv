@@ -1,0 +1,7 @@
+Experiment,Generation,Model_Path,Perplexity,Repetition_Ratio,Sample_Text,Uniqueness_Score,Shannon_Entropy,Semantic_Coherence,MAUVE_Score
+Gemma Treatment,0,google/gemma-3-1b-it,8.2696,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9515,0.7622,0.4719,0.1567
+Gemma Treatment,1,models/gemma_treatment_gen_1,10.8573,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9286,0.5757,0.5256,0.0105
+Gemma Treatment,2,models/gemma_treatment_gen_2,13.4163,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9354,0.4536,0.5271,0.0105
+Gemma Treatment,3,models/gemma_treatment_gen_3,15.4488,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9521,0.4016,0.5819,0.0105
+Gemma Treatment,4,models/gemma_treatment_gen_4,16.108,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9157,0.3911,0.5603,0.0264
+Gemma Treatment,5,models/gemma_treatment_gen_5,17.0534,1.0,"Once upon a time, in a small village nestled beside a sparkling blue river, lived a young woman name",0.9424,0.3762,0.542,0.0474

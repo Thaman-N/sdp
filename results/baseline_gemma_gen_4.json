@@ -1,0 +1,838 @@
+{
+  "model_path": "models/gemma_treatment_gen_4",
+  "num_blocks": 26,
+  "blocks": [
+    {
+      "block_idx": 0,
+      "attention": {
+        "frobenius_norm": 49.90711073600907,
+        "spectral_norm": 6.0671610832214355,
+        "effective_rank": 2552,
+        "stable_rank": 59.244693756103516,
+        "condition_number": 5234.21142578125,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 128.8714107755814,
+        "spectral_norm": 8.394403457641602,
+        "effective_rank": 3456,
+        "stable_rank": 235.76287841796875,
+        "condition_number": 139.30181884765625,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 1,
+      "attention": {
+        "frobenius_norm": 52.00118750994411,
+        "spectral_norm": 4.877930641174316,
+        "effective_rank": 2560,
+        "stable_rank": 92.45429229736328,
+        "condition_number": 635.4404296875,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 123.4963190253108,
+        "spectral_norm": 9.468335151672363,
+        "effective_rank": 3456,
+        "stable_rank": 170.175537109375,
+        "condition_number": 31.94974708557129,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 2,
+      "attention": {
+        "frobenius_norm": 58.226164713129826,
+        "spectral_norm": 5.706886291503906,
+        "effective_rank": 2555,
+        "stable_rank": 77.22712707519531,
+        "condition_number": 3664.537841796875,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 123.17449624258857,
+        "spectral_norm": 8.491632461547852,
+        "effective_rank": 3456,
+        "stable_rank": 210.47190856933594,
+        "condition_number": 31.57795524597168,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 3,
+      "attention": {
+        "frobenius_norm": 47.090771066077174,
+        "spectral_norm": 4.744006633758545,
+        "effective_rank": 2560,
+        "stable_rank": 88.96871185302734,
+        "condition_number": 519.8140869140625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 118.89873338259731,
+        "spectral_norm": 10.667825698852539,
+        "effective_rank": 3456,
+        "stable_rank": 124.26423645019531,
+        "condition_number": 187.49853515625,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 4,
+      "attention": {
+        "frobenius_norm": 48.05356113343706,
+        "spectral_norm": 4.888150691986084,
+        "effective_rank": 2560,
+        "stable_rank": 74.86074829101562,
+        "condition_number": 398.09088134765625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 118.48607585303971,
+        "spectral_norm": 9.769991874694824,
+        "effective_rank": 3456,
+        "stable_rank": 147.1230010986328,
+        "condition_number": 152.17312622070312,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 5,
+      "attention": {
+        "frobenius_norm": 56.617625534321064,
+        "spectral_norm": 6.027496337890625,
+        "effective_rank": 2553,
+        "stable_rank": 68.08150482177734,
+        "condition_number": 3218.619140625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 119.36854178517544,
+        "spectral_norm": 10.390406608581543,
+        "effective_rank": 3456,
+        "stable_rank": 132.0247039794922,
+        "condition_number": 36.83150863647461,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 6,
+      "attention": {
+        "frobenius_norm": 54.387494584979734,
+        "spectral_norm": 5.488062381744385,
+        "effective_rank": 2559,
+        "stable_rank": 86.0861587524414,
+        "condition_number": 1342.558837890625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 125.6889351928586,
+        "spectral_norm": 10.67405891418457,
+        "effective_rank": 3456,
+        "stable_rank": 138.697021484375,
+        "condition_number": 40.77429962158203,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 7,
+      "attention": {
+        "frobenius_norm": 55.113195740538686,
+        "spectral_norm": 5.892396926879883,
+        "effective_rank": 2560,
+        "stable_rank": 76.89144897460938,
+        "condition_number": 435.7270202636719,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 127.05806710501379,
+        "spectral_norm": 9.601003646850586,
+        "effective_rank": 3456,
+        "stable_rank": 175.1881866455078,
+        "condition_number": 72.09159851074219,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 8,
+      "attention": {
+        "frobenius_norm": 54.873618312909166,
+        "spectral_norm": 8.174010276794434,
+        "effective_rank": 2560,
+        "stable_rank": 39.571598052978516,
+        "condition_number": 557.3515625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 122.8628136667604,
+        "spectral_norm": 8.928011894226074,
+        "effective_rank": 3456,
+        "stable_rank": 189.43576049804688,
+        "condition_number": 54.27479934692383,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 9,
+      "attention": {
+        "frobenius_norm": 52.653364734696375,
+        "spectral_norm": 5.431370735168457,
+        "effective_rank": 2560,
+        "stable_rank": 77.8933334350586,
+        "condition_number": 502.0081787109375,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 119.16105635708952,
+        "spectral_norm": 8.496648788452148,
+        "effective_rank": 3456,
+        "stable_rank": 196.7439422607422,
+        "condition_number": 31.369626998901367,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 10,
+      "attention": {
+        "frobenius_norm": 57.45111920811211,
+        "spectral_norm": 6.541322231292725,
+        "effective_rank": 2560,
+        "stable_rank": 45.583580017089844,
+        "condition_number": 419.44012451171875,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 126.31699377917933,
+        "spectral_norm": 8.433964729309082,
+        "effective_rank": 3456,
+        "stable_rank": 224.382080078125,
+        "condition_number": 38.28123474121094,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 11,
+      "attention": {
+        "frobenius_norm": 55.17687108591498,
+        "spectral_norm": 7.762275695800781,
+        "effective_rank": 2558,
+        "stable_rank": 33.568416595458984,
+        "condition_number": 2030.43115234375,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 117.35293404379827,
+        "spectral_norm": 9.071513175964355,
+        "effective_rank": 3456,
+        "stable_rank": 167.40184020996094,
+        "condition_number": 35.984344482421875,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 12,
+      "attention": {
+        "frobenius_norm": 57.24209685049552,
+        "spectral_norm": 6.467585563659668,
+        "effective_rank": 2560,
+        "stable_rank": 60.0195198059082,
+        "condition_number": 479.46356201171875,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 119.74372709657054,
+        "spectral_norm": 8.937714576721191,
+        "effective_rank": 3456,
+        "stable_rank": 179.54931640625,
+        "condition_number": 49.12523651123047,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 13,
+      "attention": {
+        "frobenius_norm": 54.70592375720497,
+        "spectral_norm": 7.55244255065918,
+        "effective_rank": 2560,
+        "stable_rank": 39.67721176147461,
+        "condition_number": 517.5103149414062,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 115.82314776189237,
+        "spectral_norm": 9.250223159790039,
+        "effective_rank": 3456,
+        "stable_rank": 156.82630920410156,
+        "condition_number": 78.80850982666016,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 14,
+      "attention": {
+        "frobenius_norm": 51.130991736335424,
+        "spectral_norm": 6.433692932128906,
+        "effective_rank": 2560,
+        "stable_rank": 53.7855339050293,
+        "condition_number": 475.7809753417969,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 125.3195394646824,
+        "spectral_norm": 9.383406639099121,
+        "effective_rank": 3456,
+        "stable_rank": 178.42259216308594,
+        "condition_number": 49.649803161621094,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 15,
+      "attention": {
+        "frobenius_norm": 56.24956779802856,
+        "spectral_norm": 5.892482280731201,
+        "effective_rank": 2560,
+        "stable_rank": 73.81928253173828,
+        "condition_number": 425.81488037109375,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 118.23766828488712,
+        "spectral_norm": 8.78921890258789,
+        "effective_rank": 3456,
+        "stable_rank": 181.02825927734375,
+        "condition_number": 32.62701416015625,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 16,
+      "attention": {
+        "frobenius_norm": 51.98272333020256,
+        "spectral_norm": 4.073992729187012,
+        "effective_rank": 2560,
+        "stable_rank": 108.7652816772461,
+        "condition_number": 280.0683898925781,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 128.3546533446847,
+        "spectral_norm": 10.740581512451172,
+        "effective_rank": 3456,
+        "stable_rank": 142.8584747314453,
+        "condition_number": 37.42759323120117,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 17,
+      "attention": {
+        "frobenius_norm": 52.902652904171376,
+        "spectral_norm": 6.004631519317627,
+        "effective_rank": 2560,
+        "stable_rank": 51.194026947021484,
+        "condition_number": 498.9425048828125,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 120.53456319507947,
+        "spectral_norm": 10.792919158935547,
+        "effective_rank": 3456,
+        "stable_rank": 124.76175689697266,
+        "condition_number": 44.880699157714844,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 18,
+      "attention": {
+        "frobenius_norm": 49.389105631961215,
+        "spectral_norm": 7.212224960327148,
+        "effective_rank": 2560,
+        "stable_rank": 39.48672866821289,
+        "condition_number": 646.1779174804688,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 123.11784873151984,
+        "spectral_norm": 11.84554386138916,
+        "effective_rank": 3456,
+        "stable_rank": 108.06098175048828,
+        "condition_number": 59.78648376464844,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 19,
+      "attention": {
+        "frobenius_norm": 54.99447252018737,
+        "spectral_norm": 7.957612991333008,
+        "effective_rank": 2560,
+        "stable_rank": 36.20448684692383,
+        "condition_number": 300.7743225097656,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 122.79868050727526,
+        "spectral_norm": 10.266114234924316,
+        "effective_rank": 3456,
+        "stable_rank": 143.12338256835938,
+        "condition_number": 45.938602447509766,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 20,
+      "attention": {
+        "frobenius_norm": 51.57711138025014,
+        "spectral_norm": 7.784684181213379,
+        "effective_rank": 2560,
+        "stable_rank": 36.72346496582031,
+        "condition_number": 430.6334228515625,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 118.44373828197587,
+        "spectral_norm": 10.218658447265625,
+        "effective_rank": 3456,
+        "stable_rank": 134.39218139648438,
+        "condition_number": 30.265655517578125,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 21,
+      "attention": {
+        "frobenius_norm": 58.6011858102337,
+        "spectral_norm": 10.538213729858398,
+        "effective_rank": 2560,
+        "stable_rank": 27.216840744018555,
+        "condition_number": 638.30810546875,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 121.08082057248853,
+        "spectral_norm": 10.265480995178223,
+        "effective_rank": 3456,
+        "stable_rank": 139.1652374267578,
+        "condition_number": 44.508304595947266,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 22,
+      "attention": {
+        "frobenius_norm": 55.903762685150696,
+        "spectral_norm": 7.338076591491699,
+        "effective_rank": 2560,
+        "stable_rank": 43.6879997253418,
+        "condition_number": 380.2974548339844,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 122.8432486640793,
+        "spectral_norm": 9.606773376464844,
+        "effective_rank": 3456,
+        "stable_rank": 163.56234741210938,
+        "condition_number": 85.08201599121094,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 23,
+      "attention": {
+        "frobenius_norm": 60.79251900111168,
+        "spectral_norm": 6.5385518074035645,
+        "effective_rank": 2553,
+        "stable_rank": 70.17376708984375,
+        "condition_number": 2697.363037109375,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 123.9648262185638,
+        "spectral_norm": 8.942197799682617,
+        "effective_rank": 3456,
+        "stable_rank": 192.24147033691406,
+        "condition_number": 29.18545150756836,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 24,
+      "attention": {
+        "frobenius_norm": 48.835862857394304,
+        "spectral_norm": 5.0989670753479,
+        "effective_rank": 2560,
+        "stable_rank": 72.33485412597656,
+        "condition_number": 400.5997009277344,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 126.34206345654596,
+        "spectral_norm": 8.72513198852539,
+        "effective_rank": 3456,
+        "stable_rank": 209.7421112060547,
+        "condition_number": 53.52223587036133,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    },
+    {
+      "block_idx": 25,
+      "attention": {
+        "frobenius_norm": 51.752275013075,
+        "spectral_norm": 6.6005425453186035,
+        "effective_rank": 2560,
+        "stable_rank": 49.92531967163086,
+        "condition_number": 263.9214782714844,
+        "num_parameters": 2949632,
+        "param_names": [
+          "q_proj.weight",
+          "k_proj.weight",
+          "v_proj.weight",
+          "o_proj.weight",
+          "q_norm.weight",
+          "k_norm.weight"
+        ]
+      },
+      "mlp": {
+        "frobenius_norm": 124.450735874061,
+        "spectral_norm": 12.654021263122559,
+        "effective_rank": 3456,
+        "stable_rank": 96.75473022460938,
+        "condition_number": 91.0544662475586,
+        "num_parameters": 23887872,
+        "param_names": [
+          "gate_proj.weight",
+          "up_proj.weight",
+          "down_proj.weight"
+        ]
+      }
+    }
+  ]
+}

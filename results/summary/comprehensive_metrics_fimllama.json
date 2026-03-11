@@ -1,0 +1,74 @@
+[
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 0,
+        "Model_Path": "meta-llama/Llama-3.2-1B",
+        "Perplexity": 5.3935,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, there was a man who was very rich. He had a lot of money, and he was very happy wi",
+        "Uniqueness_Score": 0.7906,
+        "Shannon_Entropy": 1.6201,
+        "Semantic_Coherence": 0.5458,
+        "MAUVE_Score": 0.0756
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 1,
+        "Model_Path": "models/llama_treatment_gen_1",
+        "Perplexity": 5.6724,
+        "Repetition_Ratio": 1.0,
+        "Sample_Text": "Once upon a time, there was a man who was very rich. He had a lot of money, and he was very happy wi",
+        "Uniqueness_Score": 0.5452,
+        "Shannon_Entropy": 0.915,
+        "Semantic_Coherence": 0.4288,
+        "MAUVE_Score": 0.0105
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 2,
+        "Model_Path": "models/llama_treatment_gen_2",
+        "Perplexity": 7.2501,
+        "Repetition_Ratio": 0.759,
+        "Sample_Text": "Once upon a time, there was a man who was very rich. He had a lot of money, and he was very proud of",
+        "Uniqueness_Score": 0.4659,
+        "Shannon_Entropy": 0.6401,
+        "Semantic_Coherence": 0.4947,
+        "MAUVE_Score": 0.0264
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 3,
+        "Model_Path": "models/llama_treatment_gen_3",
+        "Perplexity": 9.1765,
+        "Repetition_Ratio": 0.6279,
+        "Sample_Text": "Once upon a time, there was a man who was very rich. He had everything he could ever want, and he wa",
+        "Uniqueness_Score": 0.6179,
+        "Shannon_Entropy": 0.5278,
+        "Semantic_Coherence": 0.4533,
+        "MAUVE_Score": 0.1567
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 4,
+        "Model_Path": "models/llama_treatment_gen_4",
+        "Perplexity": 11.399,
+        "Repetition_Ratio": 0.9882,
+        "Sample_Text": "Once upon a time, there was a man who lived in a small village. He had a wife and a son. The son was",
+        "Uniqueness_Score": 0.4767,
+        "Shannon_Entropy": 0.4548,
+        "Semantic_Coherence": 0.4632,
+        "MAUVE_Score": 0.0474
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 5,
+        "Model_Path": "models/llama_treatment_gen_5",
+        "Perplexity": 13.1725,
+        "Repetition_Ratio": 0.9882,
+        "Sample_Text": "Once upon a time, there was a man who lived in a small village. He had a wife and a son. The son was",
+        "Uniqueness_Score": 0.3936,
+        "Shannon_Entropy": 0.4419,
+        "Semantic_Coherence": 0.4903,
+        "MAUVE_Score": 0.0264
+    }
+]

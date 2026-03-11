@@ -46,10 +46,11 @@ GEN_LENGTH = 128    # Length of generated text
 
 # Base models for Gen 0
 BASE_MODELS = {
-    "Control A (Fresh)": "HuggingFaceTB/SmolLM2-135M",
-    "Control B (Static)": "HuggingFaceTB/SmolLM2-135M", 
-    "Treatment (Recursive)": "HuggingFaceTB/SmolLM2-135M",
-    "Control C (Qwen)": "Qwen/Qwen2.5-0.5B"  # Optional
+    # "Control A (Fresh)": "HuggingFaceTB/SmolLM2-135M",
+    # "Control B (Static)": "HuggingFaceTB/SmolLM2-135M", 
+    # "Treatment (Recursive)": "HuggingFaceTB/SmolLM2-135M",
+    # "Control C (Qwen)": "Qwen/Qwen2.5-0.5B"  # Optional
+    "Gemma Treatment": "google/gemma-3-1b-it"
 }
 
 # Test prompts for generation tasks
@@ -371,8 +372,8 @@ def main():
     # Load existing results if available
     all_results = []
     existing_results = {}
-    csv_path = "results/summary/comprehensive_metrics.csv"
-    json_path = "results/summary/comprehensive_metrics.json"
+    csv_path = "results/summary/comprehensive_metrics_fimgemma.csv"
+    json_path = "results/summary/comprehensive_metrics_fimgemma.json"
     if os.path.exists(csv_path):
         try:
             df_existing = pd.read_csv(csv_path)
@@ -393,14 +394,11 @@ def main():
 
     
     # ========================================================================
-    # PART 1: Evaluate Gen 0 (Base Models from HuggingFace)
+    # PART 1: Evaluate Gen 0 (meta-llama/Llama-3.2-1B only)
     # ========================================================================
     print("\n" + "="*80)
-    print("PART 1: Base Models (Generation 0)")
+    print("PART 1: Llama Gen 0")
     print("="*80)
-
-    # Add new base model
-    BASE_MODELS["GPT2 (OpenAI)"] = "openai-community/gpt2"
 
     for exp_name, model_id in BASE_MODELS.items():
         key = (exp_name, 0, model_id)
@@ -418,77 +416,22 @@ def main():
         all_results.append(results)
     
     # ========================================================================
-    # PART 2: Evaluate Local Models (Gen 1-5)
+    # PART 2: Evaluate Llama Treatment Models (Gen 1-5)
     # ========================================================================
     print("\n" + "="*80)
-    print("PART 2: Trained Models (Generations 1-5)")
+    print("PART 2: Llama Treatment Models (Generations 1-5)")
     print("="*80)
-    
-    # Find all model directories
-    all_folders = sorted(glob.glob("models/*"))
-    print(f"Found {len(all_folders)} model directories")
-    
-    for folder in all_folders:
-        # Skip if not a valid model
+
+    for gen in range(1, 6):
+        folder = f"models/gemma_treatment_gen_{gen}"
         if not os.path.exists(os.path.join(folder, "config.json")):
+            print(f"⚠️  Skipping {folder} - config.json not found")
             continue
-
-        folder_name = os.path.basename(folder)
-        exp_name = None
-        gen = None
-
-        # Parse experiment type and generation number
-        if "control_c" in folder_name:
-            exp_name = "Control C (Qwen)"
-            try:
-                gen = int(folder_name.split('_')[-1])
-            except:
-                print(f"⚠️  Skipping {folder} - cannot parse generation number")
-                continue
-        elif "control_b" in folder_name:
-            exp_name = "Control B (Static)"
-            try:
-                gen = int(folder_name.split('_')[-1])
-            except:
-                print(f"⚠️  Skipping {folder} - cannot parse generation number")
-                continue
-        elif "control_generation" in folder_name:
-            exp_name = "Control A (Fresh)"
-            try:
-                gen = int(folder_name.split('_')[-1])
-            except:
-                print(f"⚠️  Skipping {folder} - cannot parse generation number")
-                continue
-        elif folder_name.startswith("gpt2_treatment_gen_"):
-            exp_name = "Treatment (Recursive)"
-            try:
-                gen = int(folder_name.split('_')[-1])
-            except:
-                print(f"⚠️  Skipping {folder} - cannot parse generation number")
-                continue
-        elif "treatment" in folder_name:
-            # Only match if not already matched above
-            exp_name = "Treatment (Recursive)"
-            try:
-                gen = int(folder_name.split('_')[-1])
-            except:
-                print(f"⚠️  Skipping {folder} - cannot parse generation number")
-                continue
-        else:
-            # Ignore unknown folders
-            continue
-
-        # Skip Gen 0 (already handled)
-        if gen == 0:
-            continue
-
-        # Skip if already evaluated
+        exp_name = "Gemma Treatment"
         key = (exp_name, gen, folder)
         if key in existing_results:
             print(f"⚠️  Skipping {folder} - already evaluated")
             continue
-
-        # Evaluate
         results = evaluate_model(
             model_path=folder,
             exp_name=exp_name,
@@ -507,8 +450,8 @@ def main():
     print("="*80)
 
     os.makedirs("results/summary", exist_ok=True)
-    csv_path = "results/summary/comprehensive_metrics.csv"
-    json_path = "results/summary/comprehensive_metrics.json"
+    csv_path = "results/summary/comprehensive_metrics_fimgemma.csv"
+    json_path = "results/summary/comprehensive_metrics_fimgemma.json"
 
     # Load existing results again to ensure up-to-date
     existing_rows = []
