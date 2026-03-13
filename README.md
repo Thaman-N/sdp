@@ -158,7 +158,7 @@ $$H(W) = \exp \left( - \sum_{i=1}^n p_i \ln p_i \right)$$
 To ensure the mathematical "energy" of the network has not collapsed into a single dominant dimension, we calculate the minimum number of dimensions $k$ required to retain 99% of the squared singular value mass:
 
 
-$$k = \min \left\{ d \ \bigg| \ \frac{\sum_{i=1}^d \sigma_i^2}{\sum_{j=1}^n \sigma_j^2} \geq 0.99 \right\}$$
+$$k = \min \left\{ d \mid \frac{\sum_{i=1}^d \sigma_i^2}{\sum_{j=1}^n \sigma_j^2} \geq 0.99 \right\}$$
 
 **3. Threshold Rank ($L_0$ approximation):**
 A strict magnitude cutoff measuring the absolute count of singular values greater than 1% of the maximum singular value:
