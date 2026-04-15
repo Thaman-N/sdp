@@ -1,0 +1,7 @@
+Model,Architecture,Mean_Cosine,Early_Cosine,Late_Cosine,Pct_Positive
+SmolLM_Trt,sequential,-0.1873,-0.28759,-0.087009,0.0
+SmolLM_CtrlA,sequential,-0.434068,-0.447835,-0.420302,0.0
+GPT2,sequential,-0.439162,-0.456002,-0.422322,0.0
+Llama,sequential,-0.486246,-0.492308,-0.480185,0.0
+Phi15,parallel,-0.431174,-0.467752,-0.394597,0.0
+Pythia,parallel,-0.492449,-0.486324,-0.498574,0.0

@@ -1,395 +1,722 @@
 [
     {
-        "Experiment": "Control A (Fresh)",
+        "Experiment": "GPT2 Treatment",
         "Generation": 0,
-        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
-        "Perplexity": 6.0151,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She lived in a big house with her family, but ",
-        "Uniqueness_Score": 0.9575,
-        "Shannon_Entropy": 1.749,
-        "Semantic_Coherence": 0.4615,
-        "MAUVE_Score": 0.0264
+        "Model_Path": "gpt2",
+        "Perplexity": 11.0353,
+        "Diversity": 0.8333,
+        "Coherence": 0.4081
     },
     {
-        "Experiment": "Control B (Static)",
-        "Generation": 0,
-        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
-        "Perplexity": 6.0151,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She lived in a big house with her family, but ",
-        "Uniqueness_Score": 0.8445,
-        "Shannon_Entropy": 1.749,
-        "Semantic_Coherence": 0.4412,
-        "MAUVE_Score": 0.0105
+        "Experiment": "GPT2 Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gpt2_treatment_gen_1",
+        "Perplexity": 13.1352,
+        "Diversity": 0.6829,
+        "Coherence": 0.4023
     },
     {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 0,
-        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
-        "Perplexity": 6.0151,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She lived in a big house with her family, but ",
-        "Uniqueness_Score": 0.8548,
-        "Shannon_Entropy": 1.749,
-        "Semantic_Coherence": 0.4606,
-        "MAUVE_Score": 0.0105
+        "Experiment": "GPT2 Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gpt2_treatment_gen_2",
+        "Perplexity": 15.1153,
+        "Diversity": 0.8682,
+        "Coherence": 0.4547
     },
     {
-        "Experiment": "Control C (Qwen)",
+        "Experiment": "GPT2 Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gpt2_treatment_gen_3",
+        "Perplexity": 17.9152,
+        "Diversity": 0.5319,
+        "Coherence": 0.4346
+    },
+    {
+        "Experiment": "GPT2 Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gpt2_treatment_gen_4",
+        "Perplexity": 22.6444,
+        "Diversity": 0.3699,
+        "Coherence": 0.287
+    },
+    {
+        "Experiment": "GPT2 Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gpt2_treatment_gen_5",
+        "Perplexity": 26.7797,
+        "Diversity": 0.4631,
+        "Coherence": 0.3744
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 0,
+        "Model_Path": "google/gemma-3-1b-it",
+        "Perplexity": 8.4383,
+        "Diversity": 0.971,
+        "Coherence": 0.4879
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gemma_treatment_gen_1",
+        "Perplexity": 10.8885,
+        "Diversity": 0.9091,
+        "Coherence": 0.4289
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gemma_treatment_gen_2",
+        "Perplexity": 13.4234,
+        "Diversity": 0.9429,
+        "Coherence": 0.4704
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gemma_treatment_gen_3",
+        "Perplexity": 15.5634,
+        "Diversity": 0.9854,
+        "Coherence": 0.4936
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gemma_treatment_gen_4",
+        "Perplexity": 16.0128,
+        "Diversity": 0.9209,
+        "Coherence": 0.5698
+    },
+    {
+        "Experiment": "Gemma Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\gemma_treatment_gen_5",
+        "Perplexity": 17.1657,
+        "Diversity": 0.9574,
+        "Coherence": 0.3929
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 0,
+        "Model_Path": "meta-llama/Llama-3.2-1B",
+        "Perplexity": 5.5018,
+        "Diversity": 0.932,
+        "Coherence": 0.494
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\llama_treatment_gen_1",
+        "Perplexity": 5.7913,
+        "Diversity": 0.865,
+        "Coherence": 0.5219
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\llama_treatment_gen_2",
+        "Perplexity": 7.4574,
+        "Diversity": 0.8733,
+        "Coherence": 0.3877
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\llama_treatment_gen_3",
+        "Perplexity": 9.5552,
+        "Diversity": 0.56,
+        "Coherence": 0.3806
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\llama_treatment_gen_4",
+        "Perplexity": 11.9919,
+        "Diversity": 0.5556,
+        "Coherence": 0.4082
+    },
+    {
+        "Experiment": "Llama Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\llama_treatment_gen_5",
+        "Perplexity": 13.7846,
+        "Diversity": 0.7935,
+        "Coherence": 0.4634
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 0,
+        "Model_Path": "microsoft/phi-1_5",
+        "Perplexity": 3.9666,
+        "Diversity": 0.953,
+        "Coherence": 0.4397
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\phi-1_5_treatment_gen_1",
+        "Perplexity": 5.7065,
+        "Diversity": 0.964,
+        "Coherence": 0.4556
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\phi-1_5_treatment_gen_2",
+        "Perplexity": 9.7095,
+        "Diversity": 0.9669,
+        "Coherence": 0.4357
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\phi-1_5_treatment_gen_3",
+        "Perplexity": 16.7922,
+        "Diversity": 0.9796,
+        "Coherence": 0.4265
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\phi-1_5_treatment_gen_4",
+        "Perplexity": 24.6745,
+        "Diversity": 0.9853,
+        "Coherence": 0.301
+    },
+    {
+        "Experiment": "Phi-1.5 Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\phi-1_5_treatment_gen_5",
+        "Perplexity": 27.7088,
+        "Diversity": 0.9909,
+        "Coherence": 0.1977
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 0,
+        "Model_Path": "EleutherAI/pythia-1.4b",
+        "Perplexity": 5.7899,
+        "Diversity": 0.9172,
+        "Coherence": 0.3974
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\pythia-1.4b_treatment_gen_1",
+        "Perplexity": 6.6935,
+        "Diversity": 0.9487,
+        "Coherence": 0.5213
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\pythia-1.4b_treatment_gen_2",
+        "Perplexity": 11.0365,
+        "Diversity": 0.9801,
+        "Coherence": 0.4061
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\pythia-1.4b_treatment_gen_3",
+        "Perplexity": 21.5048,
+        "Diversity": 0.9658,
+        "Coherence": 0.3467
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\pythia-1.4b_treatment_gen_4",
+        "Perplexity": 43.5926,
+        "Diversity": 0.9786,
+        "Coherence": 0.2043
+    },
+    {
+        "Experiment": "Pythia Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\pythia-1.4b_treatment_gen_5",
+        "Perplexity": 88.3781,
+        "Diversity": 0.9669,
+        "Coherence": 0.3129
+    },
+    {
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 0,
         "Model_Path": "Qwen/Qwen2.5-0.5B",
-        "Perplexity": 5.3112,
-        "Repetition_Ratio": 0.0649,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and watch the ",
-        "Uniqueness_Score": 0.7818,
-        "Shannon_Entropy": 1.5762,
-        "Semantic_Coherence": 0.3391,
-        "MAUVE_Score": 0.0264
+        "Perplexity": 5.4055,
+        "Diversity": 0.9359,
+        "Coherence": 0.4237
     },
     {
-        "Experiment": "Control B (Static)",
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 1,
-        "Model_Path": "models\\control_b_gen_1",
-        "Perplexity": 4.6963,
-        "Repetition_Ratio": 0.95,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7611,
-        "Shannon_Entropy": 1.5244,
-        "Semantic_Coherence": 0.52,
-        "MAUVE_Score": 0.1118
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_c_gen_1",
+        "Perplexity": 6.2422,
+        "Diversity": 0.7244,
+        "Coherence": 0.4008
     },
     {
-        "Experiment": "Control B (Static)",
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 2,
-        "Model_Path": "models\\control_b_gen_2",
-        "Perplexity": 4.6995,
-        "Repetition_Ratio": 0.95,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7669,
-        "Shannon_Entropy": 1.5254,
-        "Semantic_Coherence": 0.4754,
-        "MAUVE_Score": 0.0474
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_c_gen_2",
+        "Perplexity": 7.9985,
+        "Diversity": 0.7365,
+        "Coherence": 0.537
     },
     {
-        "Experiment": "Control B (Static)",
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 3,
-        "Model_Path": "models\\control_b_gen_3",
-        "Perplexity": 4.6965,
-        "Repetition_Ratio": 0.95,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.5248,
-        "Shannon_Entropy": 1.5244,
-        "Semantic_Coherence": 0.4986,
-        "MAUVE_Score": 0.0474
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_c_gen_3",
+        "Perplexity": 10.3802,
+        "Diversity": 0.6184,
+        "Coherence": 0.6286
     },
     {
-        "Experiment": "Control B (Static)",
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 4,
-        "Model_Path": "models\\control_b_gen_4",
-        "Perplexity": 4.6892,
-        "Repetition_Ratio": 0.95,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7784,
-        "Shannon_Entropy": 1.5264,
-        "Semantic_Coherence": 0.5318,
-        "MAUVE_Score": 0.2107
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_c_gen_4",
+        "Perplexity": 13.0293,
+        "Diversity": 0.7667,
+        "Coherence": 0.4745
     },
     {
-        "Experiment": "Control B (Static)",
+        "Experiment": "Qwen 2.5 Control C",
         "Generation": 5,
-        "Model_Path": "models\\control_b_gen_5",
-        "Perplexity": 4.6857,
-        "Repetition_Ratio": 0.939,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7485,
-        "Shannon_Entropy": 1.5244,
-        "Semantic_Coherence": 0.4384,
-        "MAUVE_Score": 0.0756
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_c_gen_5",
+        "Perplexity": 17.5449,
+        "Diversity": 0.461,
+        "Coherence": 0.4629
     },
     {
-        "Experiment": "Control C (Qwen)",
-        "Generation": 1,
-        "Model_Path": "models\\control_c_gen_1",
-        "Perplexity": 6.2478,
-        "Repetition_Ratio": 0.9821,
-        "Sample_Text": "Once upon a time, there was a young girl named Lily. She loved to read books and explore the world a",
-        "Uniqueness_Score": 0.6667,
-        "Shannon_Entropy": 1.4492,
-        "Semantic_Coherence": 0.3809,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Control C (Qwen)",
-        "Generation": 2,
-        "Model_Path": "models\\control_c_gen_2",
-        "Perplexity": 7.9803,
-        "Repetition_Ratio": 0.5346,
-        "Sample_Text": "Once upon a time, there was a young girl named Lily who loved to read books. One day, she found a ma",
-        "Uniqueness_Score": 0.8309,
-        "Shannon_Entropy": 1.3516,
-        "Semantic_Coherence": 0.3571,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Control C (Qwen)",
-        "Generation": 3,
-        "Model_Path": "models\\control_c_gen_3",
-        "Perplexity": 10.6331,
-        "Repetition_Ratio": 0.7907,
-        "Sample_Text": "Once upon a time, there was a young girl named Lily who loved to collect colorful marbles. She had a",
-        "Uniqueness_Score": 0.5316,
-        "Shannon_Entropy": 1.5957,
-        "Semantic_Coherence": 0.4522,
-        "MAUVE_Score": 0.0105
-    },
-    {
-        "Experiment": "Control C (Qwen)",
-        "Generation": 4,
-        "Model_Path": "models\\control_c_gen_4",
-        "Perplexity": 13.5962,
-        "Repetition_Ratio": 0.9716,
-        "Sample_Text": "Once upon a time, there was a young girl named Lily who loved to collect colorful marbles. She had a",
-        "Uniqueness_Score": 0.6417,
-        "Shannon_Entropy": 1.2939,
-        "Semantic_Coherence": 0.334,
-        "MAUVE_Score": 0.0105
-    },
-    {
-        "Experiment": "Control C (Qwen)",
-        "Generation": 5,
-        "Model_Path": "models\\control_c_gen_5",
-        "Perplexity": 18.1449,
-        "Repetition_Ratio": 0.4033,
-        "Sample_Text": "Once upon a time, there was a young girl named Lily. She loved to play with her toys and explore the",
-        "Uniqueness_Score": 0.493,
-        "Shannon_Entropy": 1.6826,
-        "Semantic_Coherence": 0.462,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Control A (Fresh)",
-        "Generation": 1,
-        "Model_Path": "models\\control_generation_1",
-        "Perplexity": 4.6858,
-        "Repetition_Ratio": 0.9481,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.6677,
-        "Shannon_Entropy": 1.5264,
-        "Semantic_Coherence": 0.5246,
-        "MAUVE_Score": 0.1118
-    },
-    {
-        "Experiment": "Control A (Fresh)",
-        "Generation": 2,
-        "Model_Path": "models\\control_generation_2",
-        "Perplexity": 4.7176,
-        "Repetition_Ratio": 0.7531,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.8401,
-        "Shannon_Entropy": 1.54,
-        "Semantic_Coherence": 0.3965,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Control A (Fresh)",
-        "Generation": 3,
-        "Model_Path": "models\\control_generation_3",
-        "Perplexity": 4.7097,
-        "Repetition_Ratio": 0.7778,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.8627,
-        "Shannon_Entropy": 1.5234,
-        "Semantic_Coherence": 0.4996,
-        "MAUVE_Score": 0.2107
-    },
-    {
-        "Experiment": "Control A (Fresh)",
-        "Generation": 4,
-        "Model_Path": "models\\control_generation_4",
-        "Perplexity": 4.6763,
-        "Repetition_Ratio": 0.9277,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7405,
-        "Shannon_Entropy": 1.5156,
-        "Semantic_Coherence": 0.45,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Control A (Fresh)",
-        "Generation": 5,
-        "Model_Path": "models\\control_generation_5",
-        "Perplexity": 4.6801,
-        "Repetition_Ratio": 0.9506,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.7731,
-        "Shannon_Entropy": 1.5234,
-        "Semantic_Coherence": 0.4282,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Unknown",
-        "Generation": 1,
-        "Model_Path": "models\\generation_1",
-        "Perplexity": 5.1146,
-        "Repetition_Ratio": 0.9036,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore th",
-        "Uniqueness_Score": 0.6607,
-        "Shannon_Entropy": 1.1445,
-        "Semantic_Coherence": 0.3888,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Unknown",
-        "Generation": 2,
-        "Model_Path": "models\\generation_2",
-        "Perplexity": 5.6664,
-        "Repetition_Ratio": 0.9221,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and explore he",
-        "Uniqueness_Score": 0.6987,
-        "Shannon_Entropy": 0.9556,
-        "Semantic_Coherence": 0.5251,
-        "MAUVE_Score": 0.0756
-    },
-    {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 1,
-        "Model_Path": "models\\treatment_gen_1",
-        "Perplexity": 5.8714,
-        "Repetition_Ratio": 0.9872,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She lived in a big house with her family, but ",
-        "Uniqueness_Score": 0.865,
-        "Shannon_Entropy": 1.3506,
-        "Semantic_Coherence": 0.4402,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 2,
-        "Model_Path": "models\\treatment_gen_2",
-        "Perplexity": 6.2251,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, in a land far away, there lived a little girl named Lily. She was always curious a",
-        "Uniqueness_Score": 0.7162,
-        "Shannon_Entropy": 1.1465,
-        "Semantic_Coherence": 0.3566,
-        "MAUVE_Score": 0.0264
-    },
-    {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 3,
-        "Model_Path": "models\\treatment_gen_3",
-        "Perplexity": 6.6766,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, in a land far away, there lived a little girl named Lily. She was very curious abo",
-        "Uniqueness_Score": 0.6246,
-        "Shannon_Entropy": 1.0205,
-        "Semantic_Coherence": 0.4081,
-        "MAUVE_Score": 0.1118
-    },
-    {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 4,
-        "Model_Path": "models\\treatment_gen_4",
-        "Perplexity": 7.2103,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time, in a land far away, there lived a little girl named Lily. She was very curious abo",
-        "Uniqueness_Score": 0.7077,
-        "Shannon_Entropy": 0.936,
-        "Semantic_Coherence": 0.4341,
-        "MAUVE_Score": 0.1567
-    },
-    {
-        "Experiment": "Treatment (Recursive)",
-        "Generation": 5,
-        "Model_Path": "models\\treatment_gen_5",
-        "Perplexity": 7.7282,
-        "Repetition_Ratio": 0.9067,
-        "Sample_Text": "Once upon a time, there was a little girl named Lily. She lived in a big house with her family and h",
-        "Uniqueness_Score": 0.637,
-        "Shannon_Entropy": 0.8765,
-        "Semantic_Coherence": 0.5225,
-        "MAUVE_Score": 0.0474
-    },
-    {
-        "Experiment": "GPT2 (OpenAI)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 0,
-        "Model_Path": "openai-community/gpt2",
-        "Perplexity": 10.8147,
-        "Repetition_Ratio": 0.2875,
-        "Sample_Text": "Once upon a time, the world was a place of great beauty and great danger. The world was a place of g",
-        "Uniqueness_Score": 0.8805,
-        "Shannon_Entropy": 2.6895,
-        "Semantic_Coherence": 0.5088,
-        "MAUVE_Score": 0.0474
+        "Model_Path": "Qwen/Qwen3.5-0.8B",
+        "Perplexity": 5.6559,
+        "Diversity": 0.5397,
+        "Coherence": 0.4802
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 1,
-        "Model_Path": "models\\gpt2_treatment_gen_1",
-        "Perplexity": 12.2212,
-        "Repetition_Ratio": 0.1609,
-        "Sample_Text": "Once upon a time, the world was a place of chaos and chaos. The world was a place of chaos and chaos",
-        "Uniqueness_Score": 0.4565,
-        "Shannon_Entropy": 1.0732,
-        "Semantic_Coherence": 0.3784,
-        "MAUVE_Score": 0.0756
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\Qwen3.5-0.8B_treatment_gen_1",
+        "Perplexity": 6.3381,
+        "Diversity": 0.6483,
+        "Coherence": 0.4455
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 2,
-        "Model_Path": "models\\gpt2_treatment_gen_2",
-        "Perplexity": 14.3563,
-        "Repetition_Ratio": 0.1609,
-        "Sample_Text": "Once upon a time, the world was a place of chaos and chaos. The world was a place of chaos and chaos",
-        "Uniqueness_Score": 0.4088,
-        "Shannon_Entropy": 0.9414,
-        "Semantic_Coherence": 0.6169,
-        "MAUVE_Score": 0.0105
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\Qwen3.5-0.8B_treatment_gen_2",
+        "Perplexity": 7.2985,
+        "Diversity": 0.3034,
+        "Coherence": 0.4236
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 3,
-        "Model_Path": "models\\gpt2_treatment_gen_3",
-        "Perplexity": 17.0506,
-        "Repetition_Ratio": 0.1609,
-        "Sample_Text": "Once upon a time, the world was a place of chaos and chaos. The world was a place of chaos and chaos",
-        "Uniqueness_Score": 0.2894,
-        "Shannon_Entropy": 0.8804,
-        "Semantic_Coherence": 0.4123,
-        "MAUVE_Score": 0.0756
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\Qwen3.5-0.8B_treatment_gen_3",
+        "Perplexity": 8.4624,
+        "Diversity": 0.4928,
+        "Coherence": 0.1294
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 4,
-        "Model_Path": "models\\gpt2_treatment_gen_4",
-        "Perplexity": 21.4589,
-        "Repetition_Ratio": 0.1609,
-        "Sample_Text": "Once upon a time, the world was a place of chaos and chaos. The world was a place of chaos and chaos",
-        "Uniqueness_Score": 0.2604,
-        "Shannon_Entropy": 0.7466,
-        "Semantic_Coherence": 0.2765,
-        "MAUVE_Score": 0.0264
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\Qwen3.5-0.8B_treatment_gen_4",
+        "Perplexity": 9.8182,
+        "Diversity": 0.5,
+        "Coherence": 0.2912
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "Qwen 3.5 Treatment",
         "Generation": 5,
-        "Model_Path": "models\\gpt2_treatment_gen_5",
-        "Perplexity": 25.3272,
-        "Repetition_Ratio": 0.4444,
-        "Sample_Text": "Once upon a time, the world was full of people who were trying to make ends meet. But now, they're t",
-        "Uniqueness_Score": 0.2586,
-        "Shannon_Entropy": 0.7031,
-        "Semantic_Coherence": 0.3933,
-        "MAUVE_Score": 0.0756
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\Qwen3.5-0.8B_treatment_gen_5",
+        "Perplexity": 11.5266,
+        "Diversity": 0.3125,
+        "Coherence": 0.2095
     },
     {
-        "Experiment": "Treatment (Recursive)",
+        "Experiment": "SmolLM Control A",
+        "Generation": 0,
+        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
+        "Perplexity": 6.0504,
+        "Diversity": 0.9265,
+        "Coherence": 0.4265
+    },
+    {
+        "Experiment": "SmolLM Control A",
         "Generation": 1,
-        "Model_Path": "models\\pythia_treatment_gen_1",
-        "Perplexity": NaN,
-        "Repetition_Ratio": 1.0,
-        "Sample_Text": "Once upon a time,",
-        "Error": "CUDA error: device-side assert triggered\nSearch for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_generation_1",
+        "Perplexity": 4.6936,
+        "Diversity": 0.9091,
+        "Coherence": 0.439
+    },
+    {
+        "Experiment": "SmolLM Control A",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_generation_2",
+        "Perplexity": 4.7228,
+        "Diversity": 0.8732,
+        "Coherence": 0.3771
+    },
+    {
+        "Experiment": "SmolLM Control A",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_generation_3",
+        "Perplexity": 4.7142,
+        "Diversity": 0.9281,
+        "Coherence": 0.5388
+    },
+    {
+        "Experiment": "SmolLM Control A",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_generation_4",
+        "Perplexity": 4.6782,
+        "Diversity": 0.8766,
+        "Coherence": 0.3979
+    },
+    {
+        "Experiment": "SmolLM Control A",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_generation_5",
+        "Perplexity": 4.6781,
+        "Diversity": 0.7015,
+        "Coherence": 0.3706
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 0,
+        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
+        "Perplexity": 6.0504,
+        "Diversity": 0.9683,
+        "Coherence": 0.2472
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_b_gen_1",
+        "Perplexity": 4.6996,
+        "Diversity": 0.9209,
+        "Coherence": 0.2472
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_b_gen_2",
+        "Perplexity": 4.7056,
+        "Diversity": 0.8133,
+        "Coherence": 0.3988
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_b_gen_3",
+        "Perplexity": 4.6999,
+        "Diversity": 0.8618,
+        "Coherence": 0.5183
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_b_gen_4",
+        "Perplexity": 4.695,
+        "Diversity": 0.94,
+        "Coherence": 0.3995
+    },
+    {
+        "Experiment": "SmolLM Control B",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\control_b_gen_5",
+        "Perplexity": 4.6923,
+        "Diversity": 0.8836,
+        "Coherence": 0.5
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=100",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda100_gen_1",
+        "Perplexity": 5.9002,
+        "Diversity": 0.9615,
+        "Coherence": 0.4454
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=100",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda100_gen_2",
+        "Perplexity": 6.3224,
+        "Diversity": 0.8227,
+        "Coherence": 0.3577
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=100",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda100_gen_3",
+        "Perplexity": 6.8769,
+        "Diversity": 0.9062,
+        "Coherence": 0.5624
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=100",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda100_gen_4",
+        "Perplexity": 7.5111,
+        "Diversity": 0.6964,
+        "Coherence": 0.5109
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=100",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda100_gen_5",
+        "Perplexity": 8.1742,
+        "Diversity": 0.8561,
+        "Coherence": 0.4482
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=500",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda500_gen_1",
+        "Perplexity": 5.8578,
+        "Diversity": 0.9338,
+        "Coherence": 0.2987
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=500",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda500_gen_2",
+        "Perplexity": 6.245,
+        "Diversity": 0.9348,
+        "Coherence": 0.2487
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=500",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda500_gen_3",
+        "Perplexity": 6.7098,
+        "Diversity": 0.6165,
+        "Coherence": 0.3865
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=500",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda500_gen_4",
+        "Perplexity": 7.2551,
+        "Diversity": 0.8936,
+        "Coherence": 0.3745
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=500",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda500_gen_5",
+        "Perplexity": 7.8222,
+        "Diversity": 0.7154,
+        "Coherence": 0.4264
+    },
+    {
+        "Experiment": "SmolLM Frozen Late",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\frozen_late_gen_1",
+        "Perplexity": 5.8067,
+        "Diversity": 0.9375,
+        "Coherence": 0.4526
+    },
+    {
+        "Experiment": "SmolLM Frozen Late",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\frozen_late_gen_2",
+        "Perplexity": 6.0363,
+        "Diversity": 0.9194,
+        "Coherence": 0.5193
+    },
+    {
+        "Experiment": "SmolLM Frozen Late",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\frozen_late_gen_3",
+        "Perplexity": 6.3174,
+        "Diversity": 0.6435,
+        "Coherence": 0.4406
+    },
+    {
+        "Experiment": "SmolLM Frozen Late",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\frozen_late_gen_4",
+        "Perplexity": 6.6284,
+        "Diversity": 0.8705,
+        "Coherence": 0.4289
+    },
+    {
+        "Experiment": "SmolLM Frozen Late",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\frozen_late_gen_5",
+        "Perplexity": 6.9559,
+        "Diversity": 0.5968,
+        "Coherence": 0.5353
+    },
+    {
+        "Experiment": "SmolLM Ortho Drift",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ortho_drift_gen_1",
+        "Perplexity": 6.8212,
+        "Diversity": 0.9048,
+        "Coherence": 0.2975
+    },
+    {
+        "Experiment": "SmolLM Ortho Drift",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ortho_drift_gen_2",
+        "Perplexity": 7.8425,
+        "Diversity": 0.6043,
+        "Coherence": 0.4714
+    },
+    {
+        "Experiment": "SmolLM Ortho Drift",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ortho_drift_gen_3",
+        "Perplexity": 6.6921,
+        "Diversity": 0.7664,
+        "Coherence": 0.574
+    },
+    {
+        "Experiment": "SmolLM Ortho Drift",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ortho_drift_gen_4",
+        "Perplexity": 6.9979,
+        "Diversity": 0.5403,
+        "Coherence": 0.4387
+    },
+    {
+        "Experiment": "SmolLM Ortho Drift",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ortho_drift_gen_5",
+        "Perplexity": 7.3213,
+        "Diversity": 0.5809,
+        "Coherence": 0.294
+    },
+    {
+        "Experiment": "SmolLM Smart Ortho",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\smart_ortho_gen_1",
+        "Perplexity": 6.8181,
+        "Diversity": 0.985,
+        "Coherence": 0.3276
+    },
+    {
+        "Experiment": "SmolLM Smart Ortho",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\smart_ortho_gen_2",
+        "Perplexity": 6.2066,
+        "Diversity": 0.9357,
+        "Coherence": 0.3718
+    },
+    {
+        "Experiment": "SmolLM Smart Ortho",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\smart_ortho_gen_3",
+        "Perplexity": 6.6714,
+        "Diversity": 0.6525,
+        "Coherence": 0.346
+    },
+    {
+        "Experiment": "SmolLM Smart Ortho",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\smart_ortho_gen_4",
+        "Perplexity": 7.2283,
+        "Diversity": 0.7132,
+        "Coherence": 0.5665
+    },
+    {
+        "Experiment": "SmolLM Smart Ortho",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\smart_ortho_gen_5",
+        "Perplexity": 7.8134,
+        "Diversity": 0.698,
+        "Coherence": 0.4985
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 0,
+        "Model_Path": "HuggingFaceTB/SmolLM2-135M",
+        "Perplexity": 6.0504,
+        "Diversity": 0.9324,
+        "Coherence": 0.4146
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\treatment_gen_1",
+        "Perplexity": 5.9128,
+        "Diversity": 0.856,
+        "Coherence": 0.5317
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\treatment_gen_2",
+        "Perplexity": 6.2917,
+        "Diversity": 0.792,
+        "Coherence": 0.5439
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\treatment_gen_3",
+        "Perplexity": 6.752,
+        "Diversity": 0.7626,
+        "Coherence": 0.4439
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\treatment_gen_4",
+        "Perplexity": 7.3005,
+        "Diversity": 0.6149,
+        "Coherence": 0.5011
+    },
+    {
+        "Experiment": "SmolLM Treatment",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\treatment_gen_5",
+        "Perplexity": 7.8368,
+        "Diversity": 0.6809,
+        "Coherence": 0.3398
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=50",
+        "Generation": 1,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda50_gen_1",
+        "Perplexity": 5.9136,
+        "Diversity": 0.6977,
+        "Coherence": 0.3666
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=50",
+        "Generation": 2,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda50_gen_2",
+        "Perplexity": 6.3394,
+        "Diversity": 0.74,
+        "Coherence": 0.3164
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=50",
+        "Generation": 3,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda50_gen_3",
+        "Perplexity": 6.9077,
+        "Diversity": 0.5956,
+        "Coherence": 0.4099
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=50",
+        "Generation": 4,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda50_gen_4",
+        "Perplexity": 7.5721,
+        "Diversity": 0.8923,
+        "Coherence": 0.4808
+    },
+    {
+        "Experiment": "SmolLM EWC lambda=50",
+        "Generation": 5,
+        "Model_Path": "D:\\Thaman\\Work\\hessian-spectral-analysis\\models\\ewc_lambda50_gen_5",
+        "Perplexity": 8.2856,
+        "Diversity": 0.7699,
+        "Coherence": 0.3666
     }
 ]

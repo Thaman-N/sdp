@@ -168,7 +168,12 @@ def get_fim_eigenvalues(model, loss_fn, dataloader, num_batches, device,
 
 def get_model_blocks(model):
     if hasattr(model, 'transformer') and hasattr(model.transformer, 'h'):
+        model_type = getattr(model.config, 'model_type', 'gpt2')
+        if model_type == 'falcon':
+            return model.transformer.h, 'falcon'
         return model.transformer.h, 'gpt2'
+    elif hasattr(model, 'gpt_neox') and hasattr(model.gpt_neox, 'layers'):
+        return model.gpt_neox.layers, 'gpt_neox'
     elif hasattr(model, 'model') and hasattr(model.model, 'layers'):
         model_type = model.config.model_type.lower()
         return model.model.layers, model_type
@@ -183,20 +188,28 @@ def get_block_params(block, arch, param_type):
     if param_type == 'attention':
         if arch == 'gpt2':
             keywords = ['attn.c_attn', 'attn.c_proj']
+        elif arch == 'gpt_neox':
+            keywords = ['attention.query_key_value', 'attention.dense']
         elif arch in ['llama', 'mistral', 'smollm', 'smollm2', 'qwen2']:
             keywords = ['self_attn.q_proj', 'self_attn.k_proj', 'self_attn.v_proj', 'self_attn.o_proj']
         elif arch == 'opt':
             keywords = ['self_attn.q_proj', 'self_attn.k_proj', 'self_attn.v_proj', 'self_attn.out_proj']
+        elif arch == 'falcon':
+            keywords = ['self_attention.query_key_value', 'self_attention.dense']
         else:
             keywords = ['attn', 'attention', 'self_attn']
     
     elif param_type == 'mlp':
         if arch == 'gpt2':
             keywords = ['mlp.c_fc', 'mlp.c_proj']
+        elif arch == 'gpt_neox':
+            keywords = ['mlp.dense_h_to_4h', 'mlp.dense_4h_to_h']
         elif arch in ['llama', 'mistral', 'smollm', 'smollm2', 'qwen2']:
             keywords = ['mlp.gate_proj', 'mlp.up_proj', 'mlp.down_proj']
         elif arch == 'opt':
             keywords = ['fc1', 'fc2']
+        elif arch == 'falcon':
+            keywords = ['mlp.dense_h_to_4h', 'mlp.dense_4h_to_h']
         else:
             keywords = ['mlp', 'ffn']
     
@@ -213,6 +226,7 @@ def get_output_params(model):
     # Try different possible output parameter names
     output_keywords = [
         'lm_head.weight',           # Most modern models
+        'embed_out.weight',
         'embed_tokens.weight',      # Some models with weight tying  
         'transformer.wte.weight',   # GPT-2 style
         'wte.weight',              # Alternative GPT-2

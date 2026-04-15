@@ -1,0 +1,8 @@
+Model,Architecture,Mean_EffRank,Early_EffRank,Late_EffRank,Top1_VarPct,Top5_VarPct,Top10_VarPct
+SmolLM_Trt,sequential,72.92,73.5,72.33,10.1,22.4,33.1
+SmolLM_CtrlA,sequential,73.62,72.39,74.86,7.5,18.5,29.1
+SmolLM_CtrlB,sequential,73.49,72.14,74.84,7.6,18.8,29.3
+GPT2,sequential,43.56,43.54,43.58,16.7,38.9,52.6
+Llama,sequential,133.12,132.0,134.25,27.9,53.3,62.9
+Phi15,parallel,46.21,46.57,45.85,15.4,30.0,41.1
+Pythia,parallel,40.83,39.75,41.92,21.8,50.1,63.9
