@@ -14,7 +14,7 @@ import gc
 # CONFIGURATION
 # ============================================================================
 DEVICE   = "cuda" if torch.cuda.is_available() else "cpu"
-BASE_DIR = r"D:\Thaman\Work\hessian-spectral-analysis\models"
+BASE_DIR = r"/workspace/hessian-spectral-analysis/models"
 CSV_PATH = "results/summary/comprehensive_metrics.csv"
 JSON_PATH = "results/summary/comprehensive_metrics.json"
 
@@ -22,35 +22,37 @@ MAX_LENGTH   = 512
 EVAL_SAMPLES = 100
 
 BASE_MODELS = {
-    "SmolLM Control A":   "HuggingFaceTB/SmolLM2-135M",
-    "SmolLM Control B":   "HuggingFaceTB/SmolLM2-135M",
-    "SmolLM Treatment":   "HuggingFaceTB/SmolLM2-135M",
-    "Qwen 2.5 Control C": "Qwen/Qwen2.5-0.5B",
-    "GPT2 Treatment":     "gpt2",
-    "Llama Treatment":    "meta-llama/Llama-3.2-1B",
-    "Gemma Treatment":    "google/gemma-3-1b-it",
-    "Qwen 3.5 Treatment": "Qwen/Qwen3.5-0.8B",
-    "Phi-1.5 Treatment":  "microsoft/phi-1_5",
-    "Pythia Treatment":   "EleutherAI/pythia-1.4b",
+    # "SmolLM Control A":   "HuggingFaceTB/SmolLM2-135M",
+    # "SmolLM Control B":   "HuggingFaceTB/SmolLM2-135M",
+    # "SmolLM Treatment":   "HuggingFaceTB/SmolLM2-135M",
+    # "Qwen 2.5 Control C": "Qwen/Qwen2.5-0.5B",
+    # "GPT2 Treatment":     "gpt2",
+    # "Llama Treatment":    "meta-llama/Llama-3.2-1B",
+    # "Gemma Treatment":    "google/gemma-3-1b-it",
+    # "Qwen 3.5 Treatment": "Qwen/Qwen3.5-0.8B",
+    # "Phi-1.5 Treatment":  "microsoft/phi-1_5",
+    # "Pythia Treatment":   "EleutherAI/pythia-1.4b",
+    "Falcon Treatment": "tiiuae/falcon-7b",
 }
 
 MAPPING = {
-    "control_generation_":            "SmolLM Control A",
-    "control_b_gen_":                 "SmolLM Control B",
-    "treatment_gen_":                 "SmolLM Treatment",
-    "control_c_gen_":                 "Qwen 2.5 Control C",
-    "llama_treatment_gen_":           "Llama Treatment",
-    "gemma_treatment_gen_":           "Gemma Treatment",
-    "gpt2_treatment_gen_":            "GPT2 Treatment",
-    "Qwen3.5-0.8B_treatment_gen_":    "Qwen 3.5 Treatment",
-    "phi-1_5_treatment_gen_":         "Phi-1.5 Treatment",
-    "pythia-1.4b_treatment_gen_":     "Pythia Treatment",
-    "frozen_late_gen_":               "SmolLM Frozen Late",
-    "ortho_drift_gen_":               "SmolLM Ortho Drift",
-    "smart_ortho_gen_":               "SmolLM Smart Ortho",
-    "ewc_lambda100_gen_":             "SmolLM EWC lambda=100",
-    "ewc_lambda500_gen_":             "SmolLM EWC lambda=500",
-    "ewc_lambda50_gen_":              "SmolLM EWC lambda=50",
+    # "control_generation_":            "SmolLM Control A",
+    # "control_b_gen_":                 "SmolLM Control B",
+    # "treatment_gen_":                 "SmolLM Treatment",
+    # "control_c_gen_":                 "Qwen 2.5 Control C",
+    # "llama_treatment_gen_":           "Llama Treatment",
+    # "gemma_treatment_gen_":           "Gemma Treatment",
+    # "gpt2_treatment_gen_":            "GPT2 Treatment",
+    # "Qwen3.5-0.8B_treatment_gen_":    "Qwen 3.5 Treatment",
+    # "phi-1_5_treatment_gen_":         "Phi-1.5 Treatment",
+    # "pythia-1.4b_treatment_gen_":     "Pythia Treatment",
+    # "frozen_late_gen_":               "SmolLM Frozen Late",
+    # "ortho_drift_gen_":               "SmolLM Ortho Drift",
+    # "smart_ortho_gen_":               "SmolLM Smart Ortho",
+    # "ewc_lambda100_gen_":             "SmolLM EWC lambda=100",
+    # "ewc_lambda500_gen_":             "SmolLM EWC lambda=500",
+    # "ewc_lambda50_gen_":              "SmolLM EWC lambda=50",
+    "falcon_treatment_gen_": "Falcon Treatment",
 }
 
 TEST_PROMPTS = [

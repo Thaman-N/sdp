@@ -1,0 +1,6 @@
+Experiment,Generation,Model_Path,Perplexity,Diversity,Coherence
+Falcon Treatment,0,tiiuae/falcon-7b,4.4414,0.8774,0.4448
+Falcon Treatment,1,/workspace/models/falcon-7b_treatment_gen_1,4.8164,0.6892,0.5066
+Falcon Treatment,2,/workspace/models/falcon-7b_treatment_gen_2,6.2852,0.9236,0.457
+Falcon Treatment,3,/workspace/models/falcon-7b_treatment_gen_3,9.5625,0.9456,0.4396
+Falcon Treatment,4,/workspace/models/falcon-7b_treatment_gen_4,15.7344,0.9679,0.4764

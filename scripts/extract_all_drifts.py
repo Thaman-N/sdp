@@ -14,14 +14,19 @@ from transformers import AutoModelForCausalLM
 # LAYER_PREFIX = "model.layers" 
 
 # --- OPTION B: GPT-2 (124M) ---
-HF_MODEL_ID = "gpt2"
-MODEL_FOLDER_PREFIX = "gpt2_treatment_gen_"
-NUM_BLOCKS = 12
+# HF_MODEL_ID = "gpt2"
+# MODEL_FOLDER_PREFIX = "gpt2_treatment_gen_"
+# NUM_BLOCKS = 12
+# LAYER_PREFIX = "transformer.h"
+
+HF_MODEL_ID = "tiiuae/falcon-7b"
+MODEL_FOLDER_PREFIX = "falcon_treatment_gen_"
+NUM_BLOCKS = 32
 LAYER_PREFIX = "transformer.h"
 
 # ==========================================
 
-BASE_DIR = r"D:\Thaman\Work\hessian-spectral-analysis\models"
+BASE_DIR = r"/workspace/hessian-spectral-analysis/models"
 
 print(f"Loading Gen 0 directly from HuggingFace ({HF_MODEL_ID})...")
 base_model = AutoModelForCausalLM.from_pretrained(HF_MODEL_ID, device_map="cpu")

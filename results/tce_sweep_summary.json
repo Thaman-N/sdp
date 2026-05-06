@@ -1,0 +1,150 @@
+{
+  "0_9": {
+    "1": {
+      "spearman_rho": -0.26852057842046717,
+      "p_value": 0.15135592862640526,
+      "significant": false,
+      "perplexity": 5.652137756347656,
+      "ppl_pct_change": -1.9663803691129462
+    },
+    "2": {
+      "spearman_rho": -0.3619577308120133,
+      "p_value": 0.04935561207437316,
+      "significant": true,
+      "perplexity": 5.945670127868652,
+      "ppl_pct_change": 3.1247978893653623
+    },
+    "3": {
+      "spearman_rho": -0.32057842046718577,
+      "p_value": 0.08413373020217753,
+      "significant": false,
+      "perplexity": 6.402047634124756,
+      "ppl_pct_change": 11.040446938463257
+    },
+    "4": {
+      "spearman_rho": -0.2671857619577308,
+      "p_value": 0.1534778901754938,
+      "significant": false,
+      "perplexity": 6.9568915367126465,
+      "ppl_pct_change": 20.66394842508777
+    },
+    "5": {
+      "spearman_rho": -0.27919911012235815,
+      "p_value": 0.13513573690862085,
+      "significant": false,
+      "perplexity": 7.55057954788208,
+      "ppl_pct_change": 30.961182352381698
+    }
+  },
+  "0_95": {
+    "1": {
+      "spearman_rho": -0.27697441601779754,
+      "p_value": 0.1384054118125942,
+      "significant": false,
+      "perplexity": 5.660897254943848,
+      "ppl_pct_change": -1.814451065448696
+    },
+    "2": {
+      "spearman_rho": -0.34905450500556173,
+      "p_value": 0.05868226440087486,
+      "significant": false,
+      "perplexity": 5.964247703552246,
+      "ppl_pct_change": 3.4470170331192653
+    },
+    "3": {
+      "spearman_rho": -0.3161290322580645,
+      "p_value": 0.08877507108908012,
+      "significant": false,
+      "perplexity": 6.4443206787109375,
+      "ppl_pct_change": 11.773652630229547
+    },
+    "4": {
+      "spearman_rho": -0.2867630700778643,
+      "p_value": 0.12444064303422343,
+      "significant": false,
+      "perplexity": 7.045763969421387,
+      "ppl_pct_change": 22.205398163119305
+    },
+    "5": {
+      "spearman_rho": -0.2489432703003337,
+      "p_value": 0.18464837461449835,
+      "significant": false,
+      "perplexity": 7.6739726066589355,
+      "ppl_pct_change": 33.101375799655116
+    }
+  },
+  "0_99": {
+    "1": {
+      "spearman_rho": -0.2703003337041157,
+      "p_value": 0.14855961563512166,
+      "significant": false,
+      "perplexity": 5.656428337097168,
+      "ppl_pct_change": -1.8919623030067445
+    },
+    "2": {
+      "spearman_rho": -0.33659621802002226,
+      "p_value": 0.06894791717958983,
+      "significant": false,
+      "perplexity": 5.973668098449707,
+      "ppl_pct_change": 3.610409266281536
+    },
+    "3": {
+      "spearman_rho": -0.2978865406006674,
+      "p_value": 0.10986475097952343,
+      "significant": false,
+      "perplexity": 6.503438949584961,
+      "ppl_pct_change": 12.799030696004928
+    },
+    "4": {
+      "spearman_rho": -0.20667408231368187,
+      "p_value": 0.2731733406798361,
+      "significant": false,
+      "perplexity": 7.121227264404297,
+      "ppl_pct_change": 23.51427283591718
+    },
+    "5": {
+      "spearman_rho": -0.23292547274749723,
+      "p_value": 0.21545699453636352,
+      "significant": false,
+      "perplexity": 7.785874843597412,
+      "ppl_pct_change": 35.042266451081986
+    }
+  },
+  "0_999": {
+    "1": {
+      "spearman_rho": -0.27608453837597335,
+      "p_value": 0.13972928052208497,
+      "significant": false,
+      "perplexity": 5.661862850189209,
+      "ppl_pct_change": -1.7977032788444443
+    },
+    "2": {
+      "spearman_rho": -0.33303670745272523,
+      "p_value": 0.07212307847729263,
+      "significant": false,
+      "perplexity": 5.991258144378662,
+      "ppl_pct_change": 3.915500179883634
+    },
+    "3": {
+      "spearman_rho": -0.26585094549499444,
+      "p_value": 0.1556211468429134,
+      "significant": false,
+      "perplexity": 6.504855632781982,
+      "ppl_pct_change": 12.823602386869734
+    },
+    "4": {
+      "spearman_rho": -0.27697441601779754,
+      "p_value": 0.1384054118125942,
+      "significant": false,
+      "perplexity": 7.137260913848877,
+      "ppl_pct_change": 23.792368798666793
+    },
+    "5": {
+      "spearman_rho": -0.2671857619577308,
+      "p_value": 0.1534778901754938,
+      "significant": false,
+      "perplexity": 7.830169200897217,
+      "ppl_pct_change": 35.810530842806514
+    }
+  }
+}

@@ -40,7 +40,7 @@ from collections import defaultdict
 # ============================================================
 # CONFIG
 # ============================================================
-MODEL_ID    = "HuggingFaceTB/SmolLM2-135M"
+MODEL_ID    = "microsoft/phi-1_5"
 MAX_LENGTH  = 256
 BATCH_SIZE  = 8
 GEN_BATCH   = 32
@@ -54,7 +54,8 @@ BASE_MODELS  = "models/beta2_ablation"
 BASE_DATA    = "data/beta2_ablation"
 
 # Shared Gen1 data path — generated once, reused by all beta2 conditions
-SHARED_GEN1_DATA = os.path.join(BASE_DATA, "shared_gen1_data")
+# SHARED_GEN1_DATA = os.path.join(BASE_DATA, "shared_gen1_data")
+SHARED_GEN1_DATA = r"D:\Thaman\Work\hessian-spectral-analysis\data\phi-1_5_treatment_synthetic_gen_1"
 
 os.makedirs(BASE_RESULTS, exist_ok=True)
 os.makedirs(BASE_MODELS,  exist_ok=True)
@@ -190,12 +191,20 @@ def generate_data(source_path, data_path, n_samples):
             batch_prompts = [random.choice(PROMPTS) for _ in range(GEN_BATCH)]
             inputs = gen_tok(batch_prompts, return_tensors="pt",
                              padding=True).to(device)
-            outputs = gen_model.generate(
-                **inputs, max_new_tokens=200, do_sample=True,
-                temperature=0.8, top_k=50,
-                pad_token_id=gen_tok.pad_token_id,
-                eos_token_id=gen_tok.eos_token_id,
-            )
+            try:
+                outputs = gen_model.generate(
+                    **inputs, max_new_tokens=200, do_sample=True,
+                    temperature=0.8, top_k=50,
+                    pad_token_id=gen_tok.pad_token_id,
+                    eos_token_id=gen_tok.eos_token_id,
+                )
+                decoded = gen_tok.batch_decode(outputs, skip_special_tokens=True)
+                stories.extend(decoded)
+                pbar.update(len(decoded))
+            except Exception as e:
+                print(f"Skipping batch due to error: {e}")
+                torch.cuda.empty_cache()
+                continue
             decoded = gen_tok.batch_decode(outputs, skip_special_tokens=True)
             stories.extend(decoded)
             pbar.update(len(decoded))
@@ -209,23 +218,20 @@ def generate_data(source_path, data_path, n_samples):
     torch.cuda.empty_cache()
 
 
-def train_one_generation(data_path, save_path, beta2):
-    """
-    Always trains from base MODEL_ID regardless of generation.
-    This isolates beta2 as the only variable — we are not testing
-    recursive collapse depth here, just the optimizer's effect on
-    the FIM-drift correlation direction.
-    """
+def train_one_generation(data_path, save_path, beta2, source_model_path=None):
+    if source_model_path is None:
+        source_model_path = MODEL_ID
+
     if os.path.exists(save_path) and os.path.exists(
             os.path.join(save_path, 'config.json')):
         print(f"    Model exists at {save_path}, skipping training.")
         return
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"    Training beta2={beta2} on {data_path} -> {save_path}")
+    print(f"    Training beta2={beta2} from {source_model_path} -> {save_path}")
 
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_ID,
+        source_model_path,
         torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported()
                     else torch.float16,
         attn_implementation="eager",
@@ -345,25 +351,32 @@ for beta2 in BETA2_VALUES:
         print(f"\n--- Generation {gen} ---")
 
         model_save = os.path.join(
-            BASE_MODELS,  f"smollm_beta2_{b2_tag}_gen{gen}")
+            BASE_MODELS,  f"pythia_beta2_{b2_tag}_gen{gen}")
         result_dir = os.path.join(
-            BASE_RESULTS, f"smollm_beta2_{b2_tag}_gen{gen}")
+            BASE_RESULTS, f"pythia_beta2_{b2_tag}_gen{gen}")
         os.makedirs(result_dir, exist_ok=True)
 
         # Data: Gen1 is shared; Gen2 is generated from the Gen1 model
         # of THIS beta2 condition (different models -> different data)
         if gen == 1:
-            data_path = SHARED_GEN1_DATA
-            print(f"    Using shared Gen1 data: {data_path}")
+            data_path = os.path.join(
+                r"D:\Thaman\Work\hessian-spectral-analysis\data",
+                "pythia-1.4b_treatment_synthetic_gen_1"
+            )
+            print(f"    Using shared Gen1 treatment data: {data_path}")
         else:
             data_path = os.path.join(
-                BASE_DATA, f"smollm_beta2_{b2_tag}_gen{gen}")
-            gen2_source = os.path.join(
-                BASE_MODELS, f"smollm_beta2_{b2_tag}_gen{gen-1}")
-            generate_data(gen2_source, data_path, SAMPLES)
+                BASE_DATA, f"pythia_beta2_{b2_tag}_gen{gen}"
+            )
+            gen_source = os.path.join(
+                BASE_MODELS, f"pythia_beta2_{b2_tag}_gen{gen-1}"
+            )
+            generate_data(gen_source, data_path, SAMPLES)
 
         # Train
-        train_one_generation(data_path, model_save, beta2)
+        source = MODEL_ID if gen == 1 else os.path.join(
+            BASE_MODELS, f"pythia_beta2_{b2_tag}_gen{gen-1}")
+        train_one_generation(data_path, model_save, beta2, source_model_path=source)
 
         # FIM
         fim_out = run_fim(model_save, result_dir, fim_script)
@@ -398,7 +411,6 @@ for beta2 in BETA2_VALUES:
 # ============================================================
 print("\n\n" + "="*65)
 print("BETA2 ABLATION RESULTS")
-print("SmolLM2-135M | lr=5e-5 | wd=0.01 | 20k samples")
 print("Drift always measured vs base model (Gen0)")
 print("="*65)
 print(f"\n{'beta2':<10} {'Gen1_rho':>10} {'Gen1_p':>10} "

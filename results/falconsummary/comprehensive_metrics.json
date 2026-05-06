@@ -1,0 +1,42 @@
+[
+    {
+        "Experiment": "Falcon Treatment",
+        "Generation": 0,
+        "Model_Path": "tiiuae/falcon-7b",
+        "Perplexity": 4.4414,
+        "Diversity": 0.8774,
+        "Coherence": 0.4448
+    },
+    {
+        "Experiment": "Falcon Treatment",
+        "Generation": 1,
+        "Model_Path": "/workspace/models/falcon-7b_treatment_gen_1",
+        "Perplexity": 4.8164,
+        "Diversity": 0.6892,
+        "Coherence": 0.5066
+    },
+    {
+        "Experiment": "Falcon Treatment",
+        "Generation": 2,
+        "Model_Path": "/workspace/models/falcon-7b_treatment_gen_2",
+        "Perplexity": 6.2852,
+        "Diversity": 0.9236,
+        "Coherence": 0.457
+    },
+    {
+        "Experiment": "Falcon Treatment",
+        "Generation": 3,
+        "Model_Path": "/workspace/models/falcon-7b_treatment_gen_3",
+        "Perplexity": 9.5625,
+        "Diversity": 0.9456,
+        "Coherence": 0.4396
+    },
+    {
+        "Experiment": "Falcon Treatment",
+        "Generation": 4,
+        "Model_Path": "/workspace/models/falcon-7b_treatment_gen_4",
+        "Perplexity": 15.7344,
+        "Diversity": 0.9679,
+        "Coherence": 0.4764
+    }
+]

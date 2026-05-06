@@ -1,0 +1,86 @@
+{
+  "0_1": {
+    "1": {
+      "spearman_rho": -0.09499443826473859,
+      "p_value": 0.6175475919174652,
+      "significant": false,
+      "perplexity": 5.669131755828857,
+      "ppl_pct_change": -1.6716275953900166,
+      "kl_lambda": 0.1
+    },
+    "2": {
+      "spearman_rho": -0.04872080088987764,
+      "p_value": 0.798207654785929,
+      "significant": false,
+      "perplexity": 5.833437919616699,
+      "ppl_pct_change": 1.1781840437013849,
+      "kl_lambda": 0.1
+    },
+    "3": {
+      "spearman_rho": 0.00689655172413793,
+      "p_value": 0.9711474126155688,
+      "significant": false,
+      "perplexity": 6.059288501739502,
+      "ppl_pct_change": 5.095454113132333,
+      "kl_lambda": 0.1
+    },
+    "4": {
+      "spearman_rho": 0.23337041156840932,
+      "p_value": 0.21455668755863275,
+      "significant": false,
+      "perplexity": 6.256855010986328,
+      "ppl_pct_change": 8.522150498505104,
+      "kl_lambda": 0.1
+    },
+    "5": {
+      "spearman_rho": 0.5065628476084539,
+      "p_value": 0.004283498574079843,
+      "significant": true,
+      "perplexity": 6.402259349822998,
+      "ppl_pct_change": 11.044119045748337,
+      "kl_lambda": 0.1
+    }
+  },
+  "0_5": {
+    "1": {
+      "spearman_rho": -0.018020022246941044,
+      "p_value": 0.9247014225657184,
+      "significant": false,
+      "perplexity": 5.593881130218506,
+      "ppl_pct_change": -2.9768136198790023,
+      "kl_lambda": 0.5
+    },
+    "2": {
+      "spearman_rho": -0.09232480533926585,
+      "p_value": 0.6275095966615664,
+      "significant": false,
+      "perplexity": 5.594842910766602,
+      "ppl_pct_change": -2.960131997369977,
+      "kl_lambda": 0.5
+    },
+    "3": {
+      "spearman_rho": -0.11234705228031144,
+      "p_value": 0.5544673067635921,
+      "significant": false,
+      "perplexity": 5.599711894989014,
+      "ppl_pct_change": -2.875681800325031,
+      "kl_lambda": 0.5
+    },
+    "4": {
+      "spearman_rho": -0.12880978865406006,
+      "p_value": 0.497533192052009,
+      "significant": false,
+      "perplexity": 5.594332218170166,
+      "ppl_pct_change": -2.968989715618448,
+      "kl_lambda": 0.5
+    },
+    "5": {
+      "spearman_rho": -0.1350389321468298,
+      "p_value": 0.4767871808898193,
+      "significant": false,
+      "perplexity": 5.585448265075684,
+      "ppl_pct_change": -3.1230776228894688,
+      "kl_lambda": 0.5
+    }
+  }
+}

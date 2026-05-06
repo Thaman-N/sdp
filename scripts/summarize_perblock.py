@@ -35,8 +35,8 @@ def summarize_perblock(filepath):
         out_top = output_data["eigenvalues"][0]
         # You can adjust the formatting below to match your original preference
         print(f"Output   | Top Eigenvalue: {out_top:.2f}")
-    elif "error" in output_data:
-        print(f"Output   | Error: {output_data['error_type']} (See file for details)")
+    # elif "error" in output_data:
+    #     print(f"Output   | Error: {output_data['error_type']} (See file for details)")
     else:
         print("Output   | N/A")
 

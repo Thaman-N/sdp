@@ -1,0 +1,42 @@
+{
+  "1": {
+    "spearman_rho": -0.26852057842046717,
+    "p_value": 0.15135592862640526,
+    "n_blocks": 30,
+    "significant": false,
+    "gamma": 0.9,
+    "perplexity": 5.652137756347656
+  },
+  "2": {
+    "spearman_rho": -0.3619577308120133,
+    "p_value": 0.04935561207437316,
+    "n_blocks": 30,
+    "significant": true,
+    "gamma": 0.9,
+    "perplexity": 5.945670127868652
+  },
+  "3": {
+    "spearman_rho": -0.32057842046718577,
+    "p_value": 0.08413373020217753,
+    "n_blocks": 30,
+    "significant": false,
+    "gamma": 0.9,
+    "perplexity": 6.402047634124756
+  },
+  "4": {
+    "spearman_rho": -0.2671857619577308,
+    "p_value": 0.1534778901754938,
+    "n_blocks": 30,
+    "significant": false,
+    "gamma": 0.9,
+    "perplexity": 6.9568915367126465
+  },
+  "5": {
+    "spearman_rho": -0.27919911012235815,
+    "p_value": 0.13513573690862085,
+    "n_blocks": 30,
+    "significant": false,
+    "gamma": 0.9,
+    "perplexity": 7.55057954788208
+  }
+}
