@@ -271,7 +271,49 @@ Trained model checkpoints and generated datasets are available on HuggingFace: *
 
 ---
 
-## 9. Open Experiments
+## 9. Mathematical Formulations
+
+### 9.1 Per-Block Fisher Information (Empirical FIM)
+
+$$F_b(\theta) = \mathbb{E}_{x \sim \mathcal{D}} \left[ \nabla_{\theta_b} \log p(x|\theta) \nabla_{\theta_b} \log p(x|\theta)^T \right]$$
+
+Computed via SLQ on top eigenvalues: $FIM_b = \lambda_{max}(Attn_b) + \lambda_{max}(MLP_b)$.
+
+### 9.2 Relative Parameter Drift
+
+$$\Delta_b^{(t)} = \frac{\|W_b^{(t)} - W_b^{(0)}\|_F}{\|W_b^{(0)}\|_F}$$
+
+### 9.3 AdamW $v_t$ Mechanism
+
+$$v_t = \beta_2 v_{t-1} + (1-\beta_2)g_t^2$$
+$$\alpha_{\text{eff}} = \frac{\alpha}{\sqrt{v_t} + \varepsilon}$$
+
+High-FIM blocks: large $\|g_t\|$ $\to$ large $v_t$ $\to$ small $\alpha_{\text{eff}}$ $\to$ suppressed drift.
+
+### 9.4 EWC Loss
+
+$$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{synth}} + \lambda \sum_b \left[\log_{10}(\text{FIM}_b) \cdot \text{mean}\left((W_b - W_b^{(0)})^2\right)\right]$$
+
+### 9.5 Cosine Similarity of Incremental Drift
+
+$$\delta_n = W_{\text{gen}_n} - W_{\text{gen}_{n-1}}$$
+$$\cos(\delta_n, \delta_{n+1}) = \frac{\delta_n \cdot \delta_{n+1}}{\|\delta_n\| \|\delta_{n+1}\|}$$
+
+### 9.6 Relative Critical Sharpness ($\lambda_c$)
+
+$$\lambda_c^b = 2/\eta_c^b$$
+
+Where $\eta_c^b$ is the smallest step along $\delta_n$ that increases Gen0 loss.
+
+### 9.7 Spearman Rank Correlation
+
+$$\rho = 1 - \frac{6\sum d_i^2}{n(n^2-1)}$$
+
+Where $d_i$ is rank difference between $\log_{10}(FIM_b)$ and $\Delta_b$.
+
+---
+
+## 10. Open Experiments
 
 | Experiment | Priority | Estimated time | Notes |
 |---|---|---|---|
@@ -281,3 +323,4 @@ Trained model checkpoints and generated datasets are available on HuggingFace: *
 | Temperature scaling T=1.5, T=2.0 | Low | ~3 hours 5090 | Data-level intervention |
 | Selective v_t decay (custom optimizer) | Low | Journal version | — |
 | Activation space probing across generations | Low | Journal version | — |
+
